@@ -35,6 +35,7 @@ Note: Common Control Objects and OPOS for .NET Assemblies are both installed by 
 ## Installation  
 Please install according to the following procedure.  
 
+
 - Create an appropriate folder (as below) for the target and copy the files.  
   - File copy source  
     - OPOS 32bit: Opos_Interfaces.dll and Opos_Internals.dll in the Build\\Win32 folder  
@@ -80,10 +81,11 @@ Please install according to the following procedure.
 ## How to Use  
 When developing SO with C #, please use as follows.  
 
+
 - Naming convention of related definitions  
-   - IDispatch interface: IOPOSxxxxSO (OPOS device class name to xxxx)  
-   - Device common property: OPOS_Internals.PIDX_pppp (property name in pppp)  
-   - Device specific property: OPOSxxxxInternals.PIDXyyyy_pppp (OPOS device class name in xxxx, abbreviation for device class name in yyyy, property  name in pppp)  
+  - IDispatch interface: IOPOSxxxxSO (OPOS device class name to xxxx)  
+  - Device common property: OPOS_Internals.PIDX_pppp (property name in pppp)  
+  - Device specific property: OPOSxxxxInternals.PIDXyyyy_pppp (OPOS device class name in xxxx, abbreviation for device class name in yyyy, property  name in pppp)  
 
 
 - Added and changed target platform.  
