@@ -35,6 +35,7 @@ Common Control Objectsの定数定義DLL(Opos_Constants.dll)に啓発されて�
 ## インストール  
 インストールは以下の手順で行ってください。  
 
+
 - 対象ファイル用に(以下のような)適当なフォルダを作成し、ファイルをコピーする。  
   - ファイルコピー元  
     - OPOS 32bit : Build\\Win32 フォルダの Opos_Interfaces.dll および Opos_Internals.dll  
@@ -52,7 +53,6 @@ Common Control Objectsの定数定義DLL(Opos_Constants.dll)に啓発されて�
   - C:\\Program Files\\OPOS\\SOCommonフォルダに移動。  
   - RegSvr32 Opos_Interfaces.dll および RegSvr32 Opos_Internals.dll を実行。  
   - 両方とも正常に登録されたダイアログ表示を確認してcmd.exeを終了。  
-
   - 64bitOS時は追加処理 : C:\\Windows\\SysWOW64\\cmd.exe を管理者として実行。  
   - C:\\Program Files (x86)\\OPOS\\SOCommonフォルダに移動。  
   - RegSvr32 Opos_Interfaces.dll および RegSvr32 Opos_Internals.dll を実行。  

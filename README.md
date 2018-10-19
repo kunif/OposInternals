@@ -53,7 +53,6 @@ Please install according to the following procedure.
   - Move to C:\\Program Files\\OPOS\\SOCommon folder.  
   - Run RegSvr32 Opos_Interfaces.dll and RegSvr32 Opos_Internals.dll.  
   - Check both dialogs displayed normally and close cmd.exe.  
-
   - Additional processing at 64bit OS: Run C:\\Windows\\SysWOW64\\cmd.exe as administrator.  
   - Move to C:\\Program Files (x86)\\OPOS\\SOCommon folder.  
   - Run RegSvr32 Opos_Interfaces.dll and RegSvr32 Opos_Internals.dll.  
