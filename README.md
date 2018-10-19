@@ -42,7 +42,7 @@ Please install according to the following procedure.
     - OPOS 64bit: Opos_Interfaces.dll and Opos_Internals.dll in the Build\\x64 folder  
     - .NET: OpenPOS.Devices.Opos_Interfaces.dll and OpenPOS.Devices.Opos_Internals.dll in the Build\\dotNET folder  
   - OPOS 32bit and .NET files copy destination  
-    - For 64bit OS: C:\\Program Files (x86)\\OPOS\\SOCommon folder  
+    - 64bit OS: C:\\Program Files (x86)\\OPOS\\SOCommon folder  
     - 32bit OS: C:\\Program Files\\OPOS\\SOCommon folder  
   - OPOS 64bit files copy destination  
     - 64bit OS: C:\\Program Files\\OPOS\\SOCommon folder  
@@ -132,7 +132,7 @@ When developing SO with C #, please use as follows.
 
 
 - Change of Threading Model.  
-   - Since the default threading model is Both, change the function to Apartment by adding a function to be called when registering registry.  
+  - Since the default threading model is Both, change the function to Apartment by adding a function to be called when registering registry.  
 
 
         [ComRegisterFunction]  
@@ -154,16 +154,16 @@ When developing SO with C #, please use as follows.
 
 
 - Implement the interface.  
-   - Point to the interface name to be inherited, right click to implement "Implement Interface" and automatically generate method signature.  
-   - Implement the processing of each generated method.  
+  - Point to the interface name to be inherited, right click to implement "Implement Interface" and automatically generate method signature.  
+  - Implement the processing of each generated method.  
 
 
 - Store and use the IDispatch pointer of the CO.  
-   - In the implementation of the OpenService method, save a pointer to the CO's IDispatch object passed as a parameter by preparing a dynamic type variable and use it for event notification.  
+  - In the implementation of the OpenService method, save a pointer to the CO's IDispatch object passed as a parameter by preparing a dynamic type variable and use it for event notification.  
 
 
 - How to use property index  
-   - Since the property index is an enum definition, it can not be used as it is, cast it as an int and use it.  
+  - Since the property index is an enum definition, it can not be used as it is, cast it as an int and use it.  
 
 
         public int GetPropertyNumber(int propIndex)  
