@@ -1,4 +1,4 @@
-# OpenPOS for OLE service object development assistance.  
+# OpenPOS for OLE service object development assistance  
 ==================================================  
 These are DLLs to aid in the development of service objects (SO) of OpenPOS for OLE (formerly OLE for Retail POS: called OPOS).  
 Enlightened by the constant definition DLL (Opos_Constants.dll) of Common Control Objects, I have created information that is missing in SO development.  
@@ -118,38 +118,38 @@ When developing SO with C #, please use as follows.
 - Create SO class and designate attributes: Create SO class and add attributes as in the following example.  
 
 
-    [ComVisible(true)]  
-    [Guid("C02EE1B5-2B82-413D-AA35-B9E91AF36D31")]    // Copy the GUID created by creating the GUID in the tool menu.  
-    [ClassInterface(ClassInterfaceType.None)]  
-    [ProgId("OPOS.Scanner.OpenPOS.CSScannerSO.1")]           // ProgId is arbitrarily set to be a unique value.  
-    public class CSScannerSO : IOPOSScannerSO, IDisposable  // The class name ("CSScannerSO" here) also sets a unique value arbitrarily.  
-    {  
-        // ...  
-        // ... The implementation part of the class is omitted.  
-        // ...  
-    }  
+        [ComVisible(true)]  
+        [Guid("C02EE1B5-2B82-413D-AA35-B9E91AF36D31")]    // Copy the GUID created by creating the GUID in the tool menu.  
+        [ClassInterface(ClassInterfaceType.None)]  
+        [ProgId("OPOS.Scanner.OpenPOS.CSScannerSO.1")]           // ProgId is arbitrarily set to be a unique value.  
+        public class CSScannerSO : IOPOSScannerSO, IDisposable  // The class name ("CSScannerSO" here) also sets a unique value arbitrarily.  
+        {  
+            // ...  
+            // ... The implementation part of the class is omitted.  
+            // ...  
+        }  
 
 
 - Change of Threading Model.  
    - Since the default threading model is Both, change the function to Apartment by adding a function to be called when registering registry.  
 
 
-    [ComRegisterFunction]  
-    private static void CSCOMRegister(Type registerType)  // Function name is arbitrary.  
-    {  
-        if (registerType != typeof(CSScannerSO)) return;  // If the target is not in this class, exit without doing anything.  
-
-        using (RegistryKey clsidKey = Registry.ClassesRoot.OpenSubKey("CLSID"))  
+        [ComRegisterFunction]  
+        private static void CSCOMRegister(Type registerType)  // Function name is arbitrary.  
         {  
-            using (RegistryKey guidKey = clsidKey.OpenSubKey(registerType.GUID.ToString("B"), true))  
+            if (registerType != typeof(CSScannerSO)) return;  // If the target is not in this class, exit without doing anything.  
+
+            using (RegistryKey clsidKey = Registry.ClassesRoot.OpenSubKey("CLSID"))  
             {  
-                using (RegistryKey inproc = guidKey.OpenSubKey("InprocServer32", true))  
+                using (RegistryKey guidKey = clsidKey.OpenSubKey(registerType.GUID.ToString("B"), true))  
                 {  
-                    inproc.SetValue("ThreadingModel", "Apartment", RegistryValueKind.String);  
+                    using (RegistryKey inproc = guidKey.OpenSubKey("InprocServer32", true))  
+                    {  
+                        inproc.SetValue("ThreadingModel", "Apartment", RegistryValueKind.String);  
+                    }  
                 }  
             }  
         }  
-    }  
 
 
 - Implement the interface.  
@@ -165,27 +165,27 @@ When developing SO with C #, please use as follows.
    - Since the property index is an enum definition, it can not be used as it is, cast it as an int and use it.  
 
 
-    public int GetPropertyNumber(int propIndex)
-    {
-        int value = 0;
-        switch (propIndex)
-        {
-            case (int)OPOS_Internals.PIDX_AutoDisable:
-                value = _autoDisable ? 1 : 0;
-                break;
-            case (int)OPOS_Internals.PIDX_BinaryConversion:
-                value = _binaryConversion;
-                break;
-            // ... Abbreviate
-            case (int)OPOSScannerInternals.PIDXScan_DecodeData:
-                value = _decodeData ? 1 : 0;
-                break;
-            case (int)OPOSScannerInternals.PIDXScan_ScanDataType:
-                value = _scanDataType;
-                break;
-        }
-        return value;
-    }
+        public int GetPropertyNumber(int propIndex)  
+        {  
+            int value = 0;  
+            switch (propIndex)  
+            {  
+                case (int)OPOS_Internals.PIDX_AutoDisable:  
+                    value = _autoDisable ? 1 : 0;  
+                    break;  
+                case (int)OPOS_Internals.PIDX_BinaryConversion:  
+                    value = _binaryConversion;  
+                    break;  
+                // ... Abbreviate  
+                case (int)OPOSScannerInternals.PIDXScan_DecodeData:  
+                    value = _decodeData ? 1 : 0;  
+                    break;  
+                case (int)OPOSScannerInternals.PIDXScan_ScanDataType:  
+                    value = _scanDataType;  
+                    break;  
+            }  
+            return value;  
+        }  
 
 
 ## Known Issues  

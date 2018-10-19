@@ -118,38 +118,38 @@ C#でのSO開発時には、以下のようにして利用してください。
 - SOクラスの作成と属性指定 : 以下の例のようにSOクラスを作成し、属性を追加する。  
 
 
-      [ComVisible(true)]  
-      [Guid("C02EE1B5-2B82-413D-AA35-B9E91AF36D31")]    // ツールメニューのGUIDの作成にて作成したGUIDをコピーする。  
-      [ClassInterface(ClassInterfaceType.None)]  
-      [ProgId("OPOS.Scanner.OpenPOS.CSScannerSO.1")]           // ProgIdはユニークな値になるように任意で設定。  
-      public class CSScannerSO : IOPOSScannerSO, IDisposable  // クラス名(ここでは"CSScannerSO")もユニークな値を任意で設定。  
-      {   
-          // ...  
-          // ... クラスの実装部分は省略  
-          // ...  
-      }  
+        [ComVisible(true)]  
+        [Guid("C02EE1B5-2B82-413D-AA35-B9E91AF36D31")]    // ツールメニューのGUIDの作成にて作成したGUIDをコピーする。  
+        [ClassInterface(ClassInterfaceType.None)]  
+        [ProgId("OPOS.Scanner.OpenPOS.CSScannerSO.1")]           // ProgIdはユニークな値になるように任意で設定。  
+        public class CSScannerSO : IOPOSScannerSO, IDisposable  // クラス名(ここでは"CSScannerSO")もユニークな値を任意で設定。  
+        {   
+            // ...  
+            // ... クラスの実装部分は省略  
+            // ...  
+        }  
 
 
 - スレッディングモデルの変更。  
   - デフォルトのスレッディングモデルは Both なので、レジストリ登録時に呼び出される関数を追加して Apartment に変更する。  
 
 
-    [ComRegisterFunction]
-    private static void CSCOMRegister(Type registerType)  // 関数名は任意  
-    {
-        if (registerType != typeof(CSScannerSO)) return;  // 対象が自分のクラスでなければ何もせず終了  
+        [ComRegisterFunction]  
+        private static void CSCOMRegister(Type registerType)  // 関数名は任意  
+        {  
+            if (registerType != typeof(CSScannerSO)) return;  // 対象が自分のクラスでなければ何もせず終了  
 
-        using (RegistryKey clsidKey = Registry.ClassesRoot.OpenSubKey("CLSID"))
-        {
-            using (RegistryKey guidKey = clsidKey.OpenSubKey(registerType.GUID.ToString("B"), true))
-            {
-                using (RegistryKey inproc = guidKey.OpenSubKey("InprocServer32", true))
-                {
-                    inproc.SetValue("ThreadingModel", "Apartment", RegistryValueKind.String);
-                }
-            }
-        }
-    }
+            using (RegistryKey clsidKey = Registry.ClassesRoot.OpenSubKey("CLSID"))  
+            {  
+                using (RegistryKey guidKey = clsidKey.OpenSubKey(registerType.GUID.ToString("B"), true))  
+                {  
+                    using (RegistryKey inproc = guidKey.OpenSubKey("InprocServer32", true))  
+                    {  
+                        inproc.SetValue("ThreadingModel", "Apartment", RegistryValueKind.String);  
+                    }  
+                }  
+            }  
+        }  
 
 
 -  インタフェースを実装する。  
@@ -163,27 +163,27 @@ C#でのSO開発時には、以下のようにして利用してください。
   - プロパティインデックスはenum定義なので、そのままでは使えず、intでキャストして使います。
 
 
-    public int GetPropertyNumber(int propIndex)
-    {
-        int value = 0;
-        switch (propIndex)
-        {
-            case (int)OPOS_Internals.PIDX_AutoDisable:
-                value = _autoDisable ? 1 : 0;
-                break;
-            case (int)OPOS_Internals.PIDX_BinaryConversion:
-                value = _binaryConversion;
-                break;
-            // ... 途中省略
-            case (int)OPOSScannerInternals.PIDXScan_DecodeData:
-                value = _decodeData ? 1 : 0;
-                break;
-            case (int)OPOSScannerInternals.PIDXScan_ScanDataType:
-                value = _scanDataType;
-                break;
-        }
-        return value;
-    }
+        public int GetPropertyNumber(int propIndex)  
+        {  
+            int value = 0;  
+            switch (propIndex)  
+            {  
+                case (int)OPOS_Internals.PIDX_AutoDisable:  
+                    value = _autoDisable ? 1 : 0;  
+                    break;  
+                case (int)OPOS_Internals.PIDX_BinaryConversion:  
+                    value = _binaryConversion;  
+                    break;  
+                // ... 途中省略  
+                case (int)OPOSScannerInternals.PIDXScan_DecodeData:  
+                    value = _decodeData ? 1 : 0;  
+                    break;  
+                case (int)OPOSScannerInternals.PIDXScan_ScanDataType:  
+                    value = _scanDataType;  
+                    break;  
+            }  
+            return value;  
+        }  
 
 
 ## 既知の課題  
