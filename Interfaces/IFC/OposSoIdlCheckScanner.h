@@ -40,6 +40,6 @@ dispinterface IOPOSCheckScannerSO
         [id(85)] LONG EndInsertion(void);
         [id(86)] LONG EndRemoval(void);
         [id(87)] LONG RetrieveImage([in] LONG CropAreaID);
-        [id(88)] LONG RetrieveMemory([in] LONG by);
+        [id(88)] LONG RetrieveMemory([in] LONG By);
         [id(89)] LONG StoreImage([in] LONG CropAreaID);
 };

@@ -33,5 +33,7 @@ dispinterface IOPOSCoinDispenserSO
         [id(20)] LONG GetOpenResult(void);
 
         // Device Specific Method
-        [id(81)] LONG DispenseChange([in] LONG Amount);
+        [id(81)] LONG AdjustCashCounts([in] BSTR CashCounts);
+        [id(82)] LONG DispenseChange([in] LONG Amount);
+        [id(83)] LONG ReadCashCounts([out] BSTR* pCashCounts, [out] VARIANT_BOOL* pDiscrepancy);
 };

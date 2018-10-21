@@ -38,7 +38,7 @@ dispinterface IOPOSElectronicValueRWSO
         [id(51)] CURRENCY GetBalance(void);
         [id(52)] CURRENCY GetBalanceOfPoint(void);
         [id(53)] CURRENCY GetPoint(void);
-        [id(54)] void SetPoint([in] CURRENCY Amount);
+        [id(54)] void SetPoint([in] CURRENCY Point);
         [id(55)] CURRENCY GetSettledAmount(void);
         [id(56)] CURRENCY GetSettledPoint(void);
 

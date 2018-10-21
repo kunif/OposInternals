@@ -33,11 +33,12 @@ dispinterface IOPOSCashChangerSO
         [id(20)] LONG GetOpenResult(void);
 
         // Device Specific Method
-        [id(81)] LONG BeginDeposit(void);
-        [id(82)] LONG DispenseCash([in] BSTR CashCounts);
-        [id(83)] LONG DispenseChange([in] LONG Amount);
-        [id(84)] LONG EndDeposit([in] LONG Success);
-        [id(85)] LONG FixDeposit(void);
-        [id(86)] LONG PauseDeposit([in] LONG Control);
-        [id(87)] LONG ReadCashCounts([out] BSTR* pCashCounts, [out] VARIANT_BOOL* pDiscrepancy);
+        [id(81)] LONG AdjustCashCounts([in] BSTR CashCounts);
+        [id(82)] LONG BeginDeposit(void);
+        [id(83)] LONG DispenseCash([in] BSTR CashCounts);
+        [id(84)] LONG DispenseChange([in] LONG Amount);
+        [id(85)] LONG EndDeposit([in] LONG Success);
+        [id(86)] LONG FixDeposit(void);
+        [id(87)] LONG PauseDeposit([in] LONG Control);
+        [id(88)] LONG ReadCashCounts([out] BSTR* pCashCounts, [out] VARIANT_BOOL* pDiscrepancy);
 };

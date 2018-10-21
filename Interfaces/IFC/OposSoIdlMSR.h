@@ -33,10 +33,10 @@ dispinterface IOPOSMSRSO
         [id(20)] LONG GetOpenResult(void);
 
         // Device Specific Method
-        [id(81)] LONG AuthenticateDevice([in] BSTR DeviceResponse);
-        [id(82)] LONG DeauthenticateDevice([in] BSTR DeviceResponse);
-        [id(83)] LONG RetrieveCardProperty([in] BSTR PropertyName, [out] BSTR* CardProperty);
-        [id(84)] LONG RetrieveDeviceAuthenticationData([in, out] BSTR* Challenge);
+        [id(81)] LONG AuthenticateDevice([in] BSTR Response);
+        [id(82)] LONG DeauthenticateDevice([in] BSTR Response);
+        [id(83)] LONG RetrieveCardProperty([in] BSTR Name, [out] BSTR* pValue);
+        [id(84)] LONG RetrieveDeviceAuthenticationData([in, out] BSTR* pChallenge);
         [id(85)] LONG UpdateKey([in]BSTR Key, [in] BSTR KeyName);
         [id(86)] LONG WriteTracks([in] VARIANT /*(SAFEARRAY of BSTR = Type VT_BSTR|VT_ARRAY)*/ Data, [in] LONG Timeout);
 };

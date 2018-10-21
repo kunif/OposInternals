@@ -1,6 +1,6 @@
  Opos_Interfaces
 
- Timestamp is 5bc94394 (Fri Oct 19 11:38:12 2018)
+ Timestamp is 5bcc74c0 (Sun Oct 21 21:44:48 2018)
 
  Preferred load address is 10000000
 
@@ -45,7 +45,7 @@
  0003:00000790 00000098H .data$r                 DATA
  0003:00000828 00000ad0H .bss                    DATA
  0004:00000000 00000140H .rsrc$01                DATA
- 0004:00000140 00012ab0H .rsrc$02                DATA
+ 0004:00000140 00012b28H .rsrc$02                DATA
 
   Address         Publics by Value              Rva+Base       Lib:Object
 
@@ -1990,5 +1990,5 @@
  0003:000012e4       __pmatherr_set             100192e4     libucrt:libm_error.obj
  0004:00000140       $R000000                   1001a140     OposInterfaces.res
  0004:00000a20       $R0008E0                   1001aa20     OposInterfaces.res
- 0004:00012a30       $R0128F0                   1002ca30     OposInterfaces.res
- 0004:00012a70       $R012930                   1002ca70     OposInterfaces.res
+ 0004:00012aa8       $R012968                   1002caa8     OposInterfaces.res
+ 0004:00012ae8       $R0129A8                   1002cae8     OposInterfaces.res

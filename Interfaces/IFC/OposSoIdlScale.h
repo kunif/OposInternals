@@ -35,17 +35,17 @@ dispinterface IOPOSScaleSO
         // Device Specific Property
         [id(49)] CURRENCY GetSalesPrice(void);
         [id(50)] CURRENCY GetUnitPrice(void);
-        [id(51)] void SetUnitPrice([in] CURRENCY Amount);
+        [id(51)] void SetUnitPrice([in] CURRENCY UnitPrice);
 
         // Device Specific Method
         [id(81)] LONG DisplayText([in] BSTR Data);
         [id(82)] LONG DoPriceCalculating([out] LONG* pWeightData, [out] LONG* pTare, [out] CURRENCY* pUnitPrice, [out] CURRENCY* pUnitPriceX, [out] LONG* pWeightUnitX, [out] LONG* pWeightNumeratorX, [out] LONG* pWeightDenominatorX, [out] CURRENCY* pPrice, [in] LONG Timeout);
-        [id(83)] LONG FreezeValue([in] LONG item, [in] VARIANT_BOOL Freeze);
+        [id(83)] LONG FreezeValue([in] LONG Item, [in] VARIANT_BOOL Freeze);
         [id(84)] LONG ReadLiveWeightWithTare([out] LONG* pWeightData, [out] LONG* pTare, [in] LONG Timeout);
         [id(85)] LONG ReadWeight([out] LONG* pWeightData, [in] LONG Timeout);
         [id(86)] LONG SetPriceCalculationMode([in] LONG Mode);
         [id(87)] LONG SetSpecialTare([in] LONG Mode, [in] LONG Data);
         [id(88)] LONG SetTarePriority([in] LONG Priority);
-        [id(89)] LONG SetUnitPriceWithWeightUnit([in] CURRENCY unitPrice, [in] LONG WeightUnit, [in] LONG WeightNumerator, [in] LONG WeightDenominator);
+        [id(89)] LONG SetUnitPriceWithWeightUnit([in] CURRENCY UnitPrice, [in] LONG WeightUnit, [in] LONG WeightNumerator, [in] LONG WeightDenominator);
         [id(90)] LONG ZeroScale(void);
 };
