@@ -40,13 +40,6 @@
 
 /* Forward Declarations */ 
 
-#ifndef __IOPOSCO_FWD_DEFINED__
-#define __IOPOSCO_FWD_DEFINED__
-typedef interface IOPOSCO IOPOSCO;
-
-#endif 	/* __IOPOSCO_FWD_DEFINED__ */
-
-
 #ifndef __IOPOSBeltSO_FWD_DEFINED__
 #define __IOPOSBeltSO_FWD_DEFINED__
 typedef interface IOPOSBeltSO IOPOSBeltSO;
@@ -309,129 +302,14 @@ extern "C"{
 
 
 
-#ifndef __OPOSINTERNALSLib_LIBRARY_DEFINED__
-#define __OPOSINTERNALSLib_LIBRARY_DEFINED__
+#ifndef __OPOSINTERFACESLib_LIBRARY_DEFINED__
+#define __OPOSINTERFACESLib_LIBRARY_DEFINED__
 
-/* library OPOSINTERNALSLib */
+/* library OPOSINTERFACESLib */
 /* [helpstring][version][uuid] */ 
 
 
-EXTERN_C const IID LIBID_OPOSINTERNALSLib;
-
-#ifndef __IOPOSCO_DISPINTERFACE_DEFINED__
-#define __IOPOSCO_DISPINTERFACE_DEFINED__
-
-/* dispinterface IOPOSCO */
-/* [helpstring][uuid] */ 
-
-
-EXTERN_C const IID DIID_IOPOSCO;
-
-#if defined(__cplusplus) && !defined(CINTERFACE)
-
-    MIDL_INTERFACE("CCBE0000-B81E-11D2-AB74-0040054C3719")
-    IOPOSCO : public IDispatch
-    {
-    };
-    
-#else 	/* C style interface */
-
-    typedef struct IOPOSCOVtbl
-    {
-        BEGIN_INTERFACE
-        
-        HRESULT ( STDMETHODCALLTYPE *QueryInterface )( 
-            IOPOSCO * This,
-            /* [in] */ REFIID riid,
-            /* [annotation][iid_is][out] */ 
-            _COM_Outptr_  void **ppvObject);
-        
-        ULONG ( STDMETHODCALLTYPE *AddRef )( 
-            IOPOSCO * This);
-        
-        ULONG ( STDMETHODCALLTYPE *Release )( 
-            IOPOSCO * This);
-        
-        HRESULT ( STDMETHODCALLTYPE *GetTypeInfoCount )( 
-            IOPOSCO * This,
-            /* [out] */ UINT *pctinfo);
-        
-        HRESULT ( STDMETHODCALLTYPE *GetTypeInfo )( 
-            IOPOSCO * This,
-            /* [in] */ UINT iTInfo,
-            /* [in] */ LCID lcid,
-            /* [out] */ ITypeInfo **ppTInfo);
-        
-        HRESULT ( STDMETHODCALLTYPE *GetIDsOfNames )( 
-            IOPOSCO * This,
-            /* [in] */ REFIID riid,
-            /* [size_is][in] */ LPOLESTR *rgszNames,
-            /* [range][in] */ UINT cNames,
-            /* [in] */ LCID lcid,
-            /* [size_is][out] */ DISPID *rgDispId);
-        
-        /* [local] */ HRESULT ( STDMETHODCALLTYPE *Invoke )( 
-            IOPOSCO * This,
-            /* [annotation][in] */ 
-            _In_  DISPID dispIdMember,
-            /* [annotation][in] */ 
-            _In_  REFIID riid,
-            /* [annotation][in] */ 
-            _In_  LCID lcid,
-            /* [annotation][in] */ 
-            _In_  WORD wFlags,
-            /* [annotation][out][in] */ 
-            _In_  DISPPARAMS *pDispParams,
-            /* [annotation][out] */ 
-            _Out_opt_  VARIANT *pVarResult,
-            /* [annotation][out] */ 
-            _Out_opt_  EXCEPINFO *pExcepInfo,
-            /* [annotation][out] */ 
-            _Out_opt_  UINT *puArgErr);
-        
-        END_INTERFACE
-    } IOPOSCOVtbl;
-
-    interface IOPOSCO
-    {
-        CONST_VTBL struct IOPOSCOVtbl *lpVtbl;
-    };
-
-    
-
-#ifdef COBJMACROS
-
-
-#define IOPOSCO_QueryInterface(This,riid,ppvObject)	\
-    ( (This)->lpVtbl -> QueryInterface(This,riid,ppvObject) ) 
-
-#define IOPOSCO_AddRef(This)	\
-    ( (This)->lpVtbl -> AddRef(This) ) 
-
-#define IOPOSCO_Release(This)	\
-    ( (This)->lpVtbl -> Release(This) ) 
-
-
-#define IOPOSCO_GetTypeInfoCount(This,pctinfo)	\
-    ( (This)->lpVtbl -> GetTypeInfoCount(This,pctinfo) ) 
-
-#define IOPOSCO_GetTypeInfo(This,iTInfo,lcid,ppTInfo)	\
-    ( (This)->lpVtbl -> GetTypeInfo(This,iTInfo,lcid,ppTInfo) ) 
-
-#define IOPOSCO_GetIDsOfNames(This,riid,rgszNames,cNames,lcid,rgDispId)	\
-    ( (This)->lpVtbl -> GetIDsOfNames(This,riid,rgszNames,cNames,lcid,rgDispId) ) 
-
-#define IOPOSCO_Invoke(This,dispIdMember,riid,lcid,wFlags,pDispParams,pVarResult,pExcepInfo,puArgErr)	\
-    ( (This)->lpVtbl -> Invoke(This,dispIdMember,riid,lcid,wFlags,pDispParams,pVarResult,pExcepInfo,puArgErr) ) 
-
-#endif /* COBJMACROS */
-
-
-#endif 	/* C style interface */
-
-
-#endif 	/* __IOPOSCO_DISPINTERFACE_DEFINED__ */
-
+EXTERN_C const IID LIBID_OPOSINTERFACESLib;
 
 #ifndef __IOPOSBeltSO_DISPINTERFACE_DEFINED__
 #define __IOPOSBeltSO_DISPINTERFACE_DEFINED__
@@ -4572,7 +4450,7 @@ EXTERN_C const IID DIID_IOPOSHardTotalsSO;
 
 #endif 	/* __IOPOSHardTotalsSO_DISPINTERFACE_DEFINED__ */
 
-#endif /* __OPOSINTERNALSLib_LIBRARY_DEFINED__ */
+#endif /* __OPOSINTERFACESLib_LIBRARY_DEFINED__ */
 
 /* Additional Prototypes for ALL interfaces */
 

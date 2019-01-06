@@ -331,7 +331,6 @@
     <ClInclude Include="IFC\OposSoIdlSmartCardRW.h" />
     <ClInclude Include="IFC\OposSoIdlToneIndicator.h" />
     <ClInclude Include="IFC\OposSoIdlTotals.h" />
-    <ClInclude Include="OposCoIdl.h" />
     <ClInclude Include="OposInterfaces.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />

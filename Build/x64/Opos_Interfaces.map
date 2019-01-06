@@ -1,6 +1,6 @@
  Opos_Interfaces
 
- Timestamp is 5bcc759d (Sun Oct 21 21:48:29 2018)
+ Timestamp is 5c315f8b (Sun Jan  6 10:53:15 2019)
 
  Preferred load address is 0000000180000000
 
@@ -47,7 +47,7 @@
  0003:000009b0 00001354H .bss                    DATA
  0004:00000000 000013bcH .pdata                  DATA
  0005:00000000 00000140H .rsrc$01                DATA
- 0005:00000140 00012b28H .rsrc$02                DATA
+ 0005:00000140 00012780H .rsrc$02                DATA
 
   Address         Publics by Value              Rva+Base               Lib:Object
 
@@ -68,8 +68,8 @@
  0000:00000100       __guard_flags              0000000000000100     <absolute>
  0000:00000000       __ImageBase                0000000180000000     <linker-defined>
  0001:00000190       ?QueryInterface@CRegObject@ATL@@UEAAJAEBU_GUID@@PEAPEAX@Z 0000000180001190 f i OposInterfaces.obj
- 0001:000001a0       _get_startup_argv_mode     00000001800011a0 f i LIBCMT:argv_mode.obj
  0001:000001a0       ?AddRef@CRegObject@ATL@@UEAAKXZ 00000001800011a0 f i OposInterfaces.obj
+ 0001:000001a0       _get_startup_argv_mode     00000001800011a0 f i LIBCMT:argv_mode.obj
  0001:000001b0       ?Release@CRegObject@ATL@@UEAAKXZ 00000001800011b0 f i OposInterfaces.obj
  0001:000001c0       ?AddReplacement@CRegObject@ATL@@UEAAJPEB_W0@Z 00000001800011c0 f i OposInterfaces.obj
  0001:00000200       ?ClearReplacements@CRegObject@ATL@@UEAAJXZ 0000000180001200 f i OposInterfaces.obj
@@ -80,17 +80,17 @@
  0001:000002c0       ?GetLockCount@CAtlModule@ATL@@UEAAJXZ 00000001800012c0 f i OposInterfaces.obj
  0001:000002d0       ?GetGITPtr@CAtlModule@ATL@@UEAAJPEAPEAUIGlobalInterfaceTable@@@Z 00000001800012d0 f i OposInterfaces.obj
  0001:00000350       ?AddCommonRGSReplacements@?$CAtlModuleT@VCComModule@ATL@@@ATL@@UEAAJPEAUIRegistrarBase@@@Z 0000000180001350 f i OposInterfaces.obj
- 0001:00000370       ?UpdateRegistryFromResourceD@CComModule@ATL@@UEAAJIHPEAU_ATL_REGMAP_ENTRY@2@@Z 0000000180001370 f i OposInterfaces.obj
  0001:00000370       ?UpdateRegistryFromResourceD@CComModule@ATL@@UEAAJPEB_WHPEAU_ATL_REGMAP_ENTRY@2@@Z 0000000180001370 f i OposInterfaces.obj
+ 0001:00000370       ?UpdateRegistryFromResourceD@CComModule@ATL@@UEAAJIHPEAU_ATL_REGMAP_ENTRY@2@@Z 0000000180001370 f i OposInterfaces.obj
  0001:00000380       ?UpdateRegistryFromResource@CComModule@ATL@@UEAAJPEB_WHPEAU_ATL_REGMAP_ENTRY@2@@Z 0000000180001380 f i OposInterfaces.obj
  0001:00000390       ?UpdateRegistryFromResource@CComModule@ATL@@UEAAJIHPEAU_ATL_REGMAP_ENTRY@2@@Z 0000000180001390 f i OposInterfaces.obj
- 0001:000003a0       ??_GCComModule@ATL@@UEAAPEAXI@Z 00000001800013a0 f i OposInterfaces.obj
  0001:000003a0       ??_ECComModule@ATL@@UEAAPEAXI@Z 00000001800013a0 f i OposInterfaces.obj
+ 0001:000003a0       ??_GCComModule@ATL@@UEAAPEAXI@Z 00000001800013a0 f i OposInterfaces.obj
  0001:000003e0       ?Add@CExpansionVector@ATL@@QEAAHPEB_W0@Z 00000001800013e0 f i OposInterfaces.obj
  0001:00000580       ?AddValue@CRegParser@ATL@@IEAAJAEAVCRegKey@2@PEB_WPEA_W@Z 0000000180001580 f i OposInterfaces.obj
+ 0001:00000ac0       ?AllocateHeap@?$CTempBuffer@_W$0EAA@VCCRTAllocator@ATL@@@ATL@@AEAAX_K@Z 0000000180001ac0 f i OposInterfaces.obj
  0001:00000ac0       ?AllocateHeap@?$CTempBuffer@E$0BAA@VCCRTAllocator@ATL@@@ATL@@AEAAX_K@Z 0000000180001ac0 f i OposInterfaces.obj
  0001:00000ac0       ?AllocateHeap@?$CTempBuffer@_W$0BAA@VCCRTAllocator@ATL@@@ATL@@AEAAX_K@Z 0000000180001ac0 f i OposInterfaces.obj
- 0001:00000ac0       ?AllocateHeap@?$CTempBuffer@_W$0EAA@VCCRTAllocator@ATL@@@ATL@@AEAAX_K@Z 0000000180001ac0 f i OposInterfaces.obj
  0001:00000af0       ?Append@CParseBuffer@CRegParser@ATL@@QEAAHPEB_WH@Z 0000000180001af0 f i OposInterfaces.obj
  0001:00000be0       ?AtlHresultFromLastError@ATL@@YAJXZ 0000000180001be0 f i OposInterfaces.obj
  0001:00000c00       ?AtlHresultFromWin32@ATL@@YAJK@Z 0000000180001c00 f i OposInterfaces.obj
@@ -103,9 +103,9 @@
  0001:00001680       ?Create@CRegKey@ATL@@QEAAJPEAUHKEY__@@PEB_WPEA_WKKPEAU_SECURITY_ATTRIBUTES@@PEAK@Z 0000000180002680 f i OposInterfaces.obj
  0001:00001800       ?DeleteSubKey@CRegKey@ATL@@QEAAJPEB_W@Z 0000000180002800 f i OposInterfaces.obj
  0001:000018b0       ?EndOfVar@CRegParser@ATL@@IEAAHXZ 00000001800028b0 f i OposInterfaces.obj
+ 0001:000018f0       ?FreeHeap@?$CTempBuffer@E$0BAA@VCCRTAllocator@ATL@@@ATL@@AEAAXXZ 00000001800028f0 f i OposInterfaces.obj
  0001:000018f0       ?FreeHeap@?$CTempBuffer@_W$0BAA@VCCRTAllocator@ATL@@@ATL@@AEAAXXZ 00000001800028f0 f i OposInterfaces.obj
  0001:000018f0       ?FreeHeap@?$CTempBuffer@_W$0EAA@VCCRTAllocator@ATL@@@ATL@@AEAAXXZ 00000001800028f0 f i OposInterfaces.obj
- 0001:000018f0       ?FreeHeap@?$CTempBuffer@E$0BAA@VCCRTAllocator@ATL@@@ATL@@AEAAXXZ 00000001800028f0 f i OposInterfaces.obj
  0001:00001900       ?GetClassObject@CComModule@ATL@@QEAAJAEBU_GUID@@0PEAPEAX@Z 0000000180002900 f i OposInterfaces.obj
  0001:00001b20       ?HasSubKeys@CRegParser@ATL@@IEAAHPEAUHKEY__@@@Z 0000000180002b20 f i OposInterfaces.obj
  0001:00001b90       ?NextToken@CRegParser@ATL@@IEAAJPEA_W@Z 0000000180002b90 f i OposInterfaces.obj
@@ -133,8 +133,8 @@
  0001:000045a0       DllUnregisterServer        00000001800055a0 f   OposInterfaces.obj
  0001:00004718       ??0CAtlBaseModule@ATL@@QEAA@XZ 0000000180005718 f   atls:atlbase.obj
  0001:000047c0       ??1CAtlBaseModule@ATL@@QEAA@XZ 00000001800057c0 f   atls:atlbase.obj
- 0001:000047f4       ??3@YAXPEAX_K@Z            00000001800057f4 f   LIBCMT:delete_scalar_size.obj
  0001:000047f4       ??_V@YAXPEAX@Z             00000001800057f4 f   LIBCMT:delete_array.obj
+ 0001:000047f4       ??3@YAXPEAX_K@Z            00000001800057f4 f   LIBCMT:delete_scalar_size.obj
  0001:000047fc       __scrt_acquire_startup_lock 00000001800057fc f   LIBCMT:utility.obj
  0001:00004838       __scrt_dllmain_after_initialize_c 0000000180005838 f   LIBCMT:utility.obj
  0001:0000486c       __scrt_dllmain_before_initialize_c 000000018000586c f   LIBCMT:utility.obj
@@ -155,15 +155,15 @@
  0001:00004ce8       __report_rangecheckfailure 0000000180005ce8 f   LIBCMT:gs_report.obj
  0001:00004cfc       __report_securityfailure   0000000180005cfc f   LIBCMT:gs_report.obj
  0001:00004e7c       ??_U@YAPEAX_KAEBUnothrow_t@std@@@Z 0000000180005e7c f   LIBCMT:new_array_nothrow.obj
- 0001:00004e84       __GSHandlerCheck           0000000180005e84 f   LIBCMT:_gshandler_.obj
- 0001:00004ea4       __GSHandlerCheckCommon     0000000180005ea4 f   LIBCMT:_gshandler_.obj
- 0001:00004f10       __chkstk                   0000000180005f10 f   LIBCMT:_chkstk_.obj
- 0001:00004f10       _alloca_probe              0000000180005f10 f   LIBCMT:_chkstk_.obj
- 0001:00004f80       __security_check_cookie    0000000180005f80 f   LIBCMT:_amdsecgs_.obj
+ 0001:00004e84       __GSHandlerCheck           0000000180005e84 f   LIBCMT:gshandler.obj
+ 0001:00004ea4       __GSHandlerCheckCommon     0000000180005ea4 f   LIBCMT:gshandler.obj
+ 0001:00004f10       _alloca_probe              0000000180005f10 f   LIBCMT:chkstk.obj
+ 0001:00004f10       __chkstk                   0000000180005f10 f   LIBCMT:chkstk.obj
+ 0001:00004f80       __security_check_cookie    0000000180005f80 f   LIBCMT:amdsecgs.obj
  0001:00004fa4       ??3@YAXPEAX@Z              0000000180005fa4 f   LIBCMT:delete_scalar.obj
  0001:000052dc       _DllMainCRTStartup         00000001800062dc f   LIBCMT:dll_dllmain.obj
  0001:0000531c       _guard_check_icall_nop     000000018000631c f i LIBCMT:guard_support.obj
- 0001:00005320       __isa_available_init       0000000180006320 f   LIBCMT:_cpu_disp_.obj
+ 0001:00005320       __isa_available_init       0000000180006320 f   LIBCMT:cpu_disp.obj
  0001:000054dc       __scrt_is_ucrt_dll_in_use  00000001800064dc f   LIBCMT:ucrt_detection.obj
  0001:000054e8       __crt_debugger_hook        00000001800064e8 f   LIBCMT:utility_desktop.obj
  0001:000054f0       __scrt_fastfail            00000001800064f0 f   LIBCMT:utility_desktop.obj
@@ -175,8 +175,8 @@
  0001:0000572c       __local_stdio_scanf_options 000000018000672c f i LIBCMT:default_local_stdio_options.obj
  0001:00005734       __scrt_initialize_default_local_stdio_options 0000000180006734 f   LIBCMT:default_local_stdio_options.obj
  0001:00005750       __scrt_get_dyn_tls_init_callback 0000000180006750 f   LIBCMT:dyn_tls_init.obj
- 0001:00005758       _RTC_Initialize            0000000180006758 f   LIBCMT:_initsect_.obj
- 0001:00005794       _RTC_Terminate             0000000180006794 f   LIBCMT:_initsect_.obj
+ 0001:00005758       _RTC_Initialize            0000000180006758 f   LIBCMT:initsect.obj
+ 0001:00005794       _RTC_Terminate             0000000180006794 f   LIBCMT:initsect.obj
  0001:000057d0       ??2@YAPEAX_K@Z             00000001800067d0 f   LIBCMT:new_scalar.obj
  0001:0000580c       ??0bad_alloc@std@@QEAA@AEBV01@@Z 000000018000680c f i LIBCMT:throw_bad_alloc.obj
  0001:0000584c       ??0bad_alloc@std@@QEAA@XZ  000000018000684c f i LIBCMT:throw_bad_alloc.obj
@@ -186,19 +186,19 @@
  0001:00005904       ??1bad_array_new_length@std@@UEAA@XZ 0000000180006904 f i LIBCMT:throw_bad_alloc.obj
  0001:00005904       ??1bad_alloc@std@@UEAA@XZ  0000000180006904 f i LIBCMT:throw_bad_alloc.obj
  0001:00005904       ??1bad_exception@std@@UEAA@XZ 0000000180006904 f i libvcruntime:frame.obj
- 0001:00005918       ??_Ebad_exception@std@@UEAAPEAXI@Z 0000000180006918 f i libvcruntime:frame.obj
  0001:00005918       ??_Ebad_alloc@std@@UEAAPEAXI@Z 0000000180006918 f i LIBCMT:throw_bad_alloc.obj
- 0001:00005918       ??_Gexception@std@@UEAAPEAXI@Z 0000000180006918 f i LIBCMT:throw_bad_alloc.obj
  0001:00005918       ??_Eexception@std@@UEAAPEAXI@Z 0000000180006918 f i LIBCMT:throw_bad_alloc.obj
- 0001:00005918       ??_Gbad_alloc@std@@UEAAPEAXI@Z 0000000180006918 f i LIBCMT:throw_bad_alloc.obj
+ 0001:00005918       ??_Ebad_exception@std@@UEAAPEAXI@Z 0000000180006918 f i libvcruntime:frame.obj
+ 0001:00005918       ??_Gexception@std@@UEAAPEAXI@Z 0000000180006918 f i LIBCMT:throw_bad_alloc.obj
  0001:00005918       ??_Gbad_array_new_length@std@@UEAAPEAXI@Z 0000000180006918 f i LIBCMT:throw_bad_alloc.obj
- 0001:00005918       ??_Ebad_array_new_length@std@@UEAAPEAXI@Z 0000000180006918 f i LIBCMT:throw_bad_alloc.obj
  0001:00005918       ??_Gbad_exception@std@@UEAAPEAXI@Z 0000000180006918 f i libvcruntime:frame.obj
+ 0001:00005918       ??_Ebad_array_new_length@std@@UEAAPEAXI@Z 0000000180006918 f i LIBCMT:throw_bad_alloc.obj
+ 0001:00005918       ??_Gbad_alloc@std@@UEAAPEAXI@Z 0000000180006918 f i LIBCMT:throw_bad_alloc.obj
  0001:0000595c       ?__scrt_throw_std_bad_alloc@@YAXXZ 000000018000695c f   LIBCMT:throw_bad_alloc.obj
  0001:0000597c       ?__scrt_throw_std_bad_array_new_length@@YAXXZ 000000018000697c f   LIBCMT:throw_bad_alloc.obj
  0001:0000599c       ?what@exception@std@@UEBAPEBDXZ 000000018000699c f i LIBCMT:throw_bad_alloc.obj
- 0001:000059b0       ??_Etype_info@@UEAAPEAXI@Z 00000001800069b0 f i LIBCMT:std_type_info_static.obj
  0001:000059b0       ??_Gtype_info@@UEAAPEAXI@Z 00000001800069b0 f i LIBCMT:std_type_info_static.obj
+ 0001:000059b0       ??_Etype_info@@UEAAPEAXI@Z 00000001800069b0 f i LIBCMT:std_type_info_static.obj
  0001:000059dc       wcsstr                     00000001800069dc f   libvcruntime:wcsstr.obj
  0001:00005c10       memcpy_repmovs             0000000180006c10 f   libvcruntime:memcpy.obj
  0001:00005c30       memcpy                     0000000180006c30 f   libvcruntime:memcpy.obj
@@ -210,7 +210,7 @@
  0001:00006278       __vcrt_thread_detach       0000000180007278 f   libvcruntime:initialization.obj
  0001:0000628c       __vcrt_uninitialize        000000018000728c f   libvcruntime:initialization.obj
  0001:000062ac       __vcrt_uninitialize_critical 00000001800072ac f   libvcruntime:initialization.obj
- 0001:000062bc       __C_specific_handler       00000001800072bc f   libvcruntime:_riscchandler_.obj
+ 0001:000062bc       __C_specific_handler       00000001800072bc f   libvcruntime:riscchandler.obj
  0001:000064c8       ??$_CallSETranslator@V__FrameHandler3@@@@YAHPEAUEHExceptionRecord@@PEA_KPEAU_CONTEXT@@PEAU_xDISPATCHER_CONTEXT@@PEBU_s_FuncInfo@@K1@Z 00000001800074c8 f i libvcruntime:risctrnsctrl.obj
  0001:0000651c       ?CatchTryBlock@__FrameHandler3@@SAPEBU_s_TryBlockMapEntry@@PEBU_s_FuncInfo@@H@Z 000000018000751c f   libvcruntime:risctrnsctrl.obj
  0001:00006574       ?ExecutionInCatch@__FrameHandler3@@SA_NPEAU_xDISPATCHER_CONTEXT@@PEBU_s_FuncInfo@@@Z 0000000180007574 f   libvcruntime:risctrnsctrl.obj
@@ -246,9 +246,9 @@
  0001:0000723c       __vcrt_initialize_winapi_thunks 000000018000823c f   libvcruntime:winapi_downlevel.obj
  0001:0000726c       __vcrt_uninitialize_winapi_thunks 000000018000826c f   libvcruntime:winapi_downlevel.obj
  0001:000072ac       __vcrt_initialize_pure_virtual_call_handler 00000001800082ac f   libvcruntime:purevirt_data.obj
- 0001:000072d0       _NLG_Notify                00000001800082d0 f   libvcruntime:_notify_.obj
- 0001:000072f0       __NLG_Dispatch2            00000001800082f0 f   libvcruntime:_notify_.obj
- 0001:00007300       __NLG_Return2              0000000180008300 f   libvcruntime:_notify_.obj
+ 0001:000072d0       _NLG_Notify                00000001800082d0 f   libvcruntime:notify.obj
+ 0001:000072f0       __NLG_Dispatch2            00000001800082f0 f   libvcruntime:notify.obj
+ 0001:00007300       __NLG_Return2              0000000180008300 f   libvcruntime:notify.obj
  0001:00007304       __except_validate_context_record 0000000180008304 f   libvcruntime:jbcxrval.obj
  0001:0000733c       __DestructExceptionObject  000000018000833c f   libvcruntime:ehhelpers.obj
  0001:000073b0       ?_CallMemberFunction0@@YAXQEAX0@Z 00000001800083b0 f i libvcruntime:ehhelpers.obj
@@ -461,7 +461,7 @@
  0001:00010770       _IsNonwritableInCurrentImage 0000000180011770 f   LIBCMT:pesect.obj
  0001:000107c0       _ValidateImageBase         00000001800117c0 f   LIBCMT:pesect.obj
  0001:00010800       memcmp                     0000000180011800 f   libvcruntime:memcmp.obj
- 0001:000108e0       _guard_dispatch_icall_nop  00000001800118e0 f   LIBCMT:_guard_dispatch_.obj
+ 0001:000108e0       _guard_dispatch_icall_nop  00000001800118e0 f   LIBCMT:guard_dispatch.obj
  0002:00000000       __imp_RegQueryInfoKeyW     0000000180012000     advapi32:ADVAPI32.dll
  0002:00000008       __imp_RegOpenKeyExW        0000000180012008     advapi32:ADVAPI32.dll
  0002:00000010       __imp_RegEnumKeyExW        0000000180012010     advapi32:ADVAPI32.dll
@@ -625,7 +625,7 @@
  0002:000008a0       ??_C@_1BC@KAILKFFG@?$AAR?$AAE?$AAG?$AAI?$AAS?$AAT?$AAR?$AAY@ 00000001800128a0     OposInterfaces.obj
  0002:000008b8       ??_C@_1BK@BIGILECK@?$AAA?$AAd?$AAv?$AAa?$AAp?$AAi?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl@ 00000001800128b8     OposInterfaces.obj
  0002:000008d8       ??_C@_0BI@MNCFCPFK@RegCreateKeyTransactedW@ 00000001800128d8     OposInterfaces.obj
- 0002:000008f0       LIBID_OPOSINTERNALSLib     00000001800128f0     OposInterfaces.obj
+ 0002:000008f0       LIBID_OPOSINTERFACESLib    00000001800128f0     OposInterfaces.obj
  0002:00000900       _GUID_00000146_0000_0000_c000_000000000046 0000000180012900     OposInterfaces.obj
  0002:00000910       ??_7CComModule@ATL@@6B@    0000000180012910     OposInterfaces.obj
  0002:00000960       ??_C@_1M@PPPPCDEP@?$AAA?$AAP?$AAP?$AAI?$AAD@ 0000000180012960     OposInterfaces.obj
@@ -646,8 +646,8 @@
  0002:00000ac8       GUID_ATLVer110             0000000180012ac8     atls:atlbase.obj
  0002:00000ae0       ??_C@_1IC@ONKHOIDK@?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?5?$AA?3?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5@ 0000000180012ae0     atls:atlbase.obj
  0002:00000b62       ?nothrow@std@@3Unothrow_t@1@B 0000000180012b62     LIBCMT:std_nothrow.obj
- 0002:00000b78       _pDefaultRawDllMain        0000000180012b78     LIBCMT:dll_dllmain.obj
  0002:00000b78       _pRawDllMain               0000000180012b78     LIBCMT:dll_dllmain.obj
+ 0002:00000b78       _pDefaultRawDllMain        0000000180012b78     LIBCMT:dll_dllmain.obj
  0002:00000bb0       ??_7exception@std@@6B@     0000000180012bb0     LIBCMT:throw_bad_alloc.obj
  0002:00000bc0       ??_C@_0BC@EOODALEL@Unknown?5exception@ 0000000180012bc0     LIBCMT:throw_bad_alloc.obj
  0002:00000be0       ??_7bad_alloc@std@@6B@     0000000180012be0     LIBCMT:throw_bad_alloc.obj
@@ -1308,10 +1308,10 @@
  0002:00008020       ??_R3bad_exception@std@@8  000000018001a020     libvcruntime:frame.obj
  0002:00008038       ??_R2bad_exception@std@@8  000000018001a038     libvcruntime:frame.obj
  0002:00008050       ??_R1A@?0A@EA@bad_exception@std@@8 000000018001a050     libvcruntime:frame.obj
- 0002:00008400       __rtc_iaa                  000000018001a400     LIBCMT:_initsect_.obj
- 0002:00008408       __rtc_izz                  000000018001a408     LIBCMT:_initsect_.obj
- 0002:00008410       __rtc_taa                  000000018001a410     LIBCMT:_initsect_.obj
- 0002:00008418       __rtc_tzz                  000000018001a418     LIBCMT:_initsect_.obj
+ 0002:00008400       __rtc_iaa                  000000018001a400     LIBCMT:initsect.obj
+ 0002:00008408       __rtc_izz                  000000018001a408     LIBCMT:initsect.obj
+ 0002:00008410       __rtc_taa                  000000018001a410     LIBCMT:initsect.obj
+ 0002:00008418       __rtc_tzz                  000000018001a418     LIBCMT:initsect.obj
  0002:00009668       _TI2?AVbad_alloc@std@@     000000018001b668     LIBCMT:throw_bad_alloc.obj
  0002:00009688       _CTA2?AVbad_alloc@std@@    000000018001b688     LIBCMT:throw_bad_alloc.obj
  0002:000096a0       _CT??_R0?AVbad_alloc@std@@@8??0bad_alloc@std@@QEAA@AEBV01@@Z24 000000018001b6a0     LIBCMT:throw_bad_alloc.obj
@@ -1333,9 +1333,9 @@
  0003:00000000       __scrt_native_dllmain_reason 000000018001d000     LIBCMT:utility.obj
  0003:00000010       __security_cookie_complement 000000018001d010     LIBCMT:gs_cookie.obj
  0003:00000018       __security_cookie          000000018001d018     LIBCMT:gs_cookie.obj
- 0003:00000020       __isa_available            000000018001d020     LIBCMT:_cpu_disp_.obj
- 0003:00000024       __isa_enabled              000000018001d024     LIBCMT:_cpu_disp_.obj
- 0003:00000028       __memcpy_nt_iters          000000018001d028     LIBCMT:_cpu_disp_.obj
+ 0003:00000020       __isa_available            000000018001d020     LIBCMT:cpu_disp.obj
+ 0003:00000024       __isa_enabled              000000018001d024     LIBCMT:cpu_disp.obj
+ 0003:00000028       __memcpy_nt_iters          000000018001d028     LIBCMT:cpu_disp.obj
  0003:00000048       __abort_behavior           000000018001d048     libucrt:abort.obj
  0003:00000060       __acrt_initial_multibyte_data 000000018001d060     libucrt:mbctype.obj
  0003:000005a0       __acrt_initial_locale_data 000000018001d5a0     libucrt:nlsdata.obj
@@ -1363,10 +1363,10 @@
  0003:00000a28       ?m_libid@CAtlModule@ATL@@2U_GUID@@A 000000018001da28     OposInterfaces.obj
  0003:00000a40       ?_Module@@3VCComModule@ATL@@A 000000018001da40     OposInterfaces.obj
  0003:00000ae0       ?_AtlBaseModule@ATL@@3VCAtlBaseModule@1@A 000000018001dae0     atls:atlbase.obj
- 0003:00000b40       __@@_PchSym_@00@UyrmzirvhUrmgvinvwrzgvUexgllohUzgohOmzgrevkilqPBACIAJCBDBUlyqiUznwGEUhgwzucOlyq@4B2008FD98C1DD4 000000018001db40     atls:stdafx.obj
+ 0003:00000b40       __@@_PchSym_@00@UztvmgUPdlipUCUhUrmgvinvwrzgvUexgllohUzgohOmzgrevkilqPBACIAJCBDBUlyqiUznwGEUhgwzucOlyq@4B2008FD98C1DD4 000000018001db40     atls:stdafx.obj
  0003:00000b48       __scrt_current_native_startup_state 000000018001db48     LIBCMT:utility.obj
  0003:00000b50       __scrt_native_startup_lock 000000018001db50     LIBCMT:utility.obj
- 0003:00001104       __favor                    000000018001e104     LIBCMT:_cpu_disp_.obj
+ 0003:00001104       __favor                    000000018001e104     LIBCMT:cpu_disp.obj
  0003:00001108       __scrt_debugger_hook_flag  000000018001e108     LIBCMT:utility_desktop.obj
  0003:00001110       ?__type_info_root_node@@3U__type_info_node@@A 000000018001e110     LIBCMT:tncleanup.obj
  0003:00001120       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA 000000018001e120     LIBCMT:default_local_stdio_options.obj
@@ -1543,8 +1543,8 @@
  0001:00004670       memcpy_s                   0000000180005670 f   OposInterfaces.obj
  0001:00004d98       capture_current_context    0000000180005d98 f   LIBCMT:gs_report.obj
  0001:00004e08       capture_previous_context   0000000180005e08 f   LIBCMT:gs_report.obj
- 0001:00004f00       $$000000                   0000000180005f00     LIBCMT:_chkstk_.obj
- 0001:00004f70       $$000000                   0000000180005f70     LIBCMT:_amdsecgs_.obj
+ 0001:00004f00       $$000000                   0000000180005f00     LIBCMT:chkstk.obj
+ 0001:00004f70       $$000000                   0000000180005f70     LIBCMT:amdsecgs.obj
  0001:00004fac       ?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180005fac f   LIBCMT:dll_dllmain.obj
  0001:00004ffc       ?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 0000000180005ffc f   LIBCMT:dll_dllmain.obj
  0001:00005118       ?dllmain_crt_process_detach@@YAH_N@Z 0000000180006118 f   LIBCMT:dll_dllmain.obj
@@ -1553,8 +1553,8 @@
  0001:00005cb7       MoveSmall                  0000000180006cb7     libvcruntime:memcpy.obj
  0001:00006070       $$000000                   0000000180007070     libvcruntime:memset.obj
  0001:0000616c       MsetTab                    000000018000716c     libvcruntime:memset.obj
- 0001:00006ed4       ?try_get_function@@YAPEAXW4function_id@?A0xcc2f1bd3@@QEBDQEBW4module_id@2@2@Z 0000000180007ed4 f   libvcruntime:winapi_downlevel.obj
- 0001:000072c0       $$000000                   00000001800082c0     libvcruntime:_notify_.obj
+ 0001:00006ed4       ?try_get_function@@YAPEAXW4function_id@?A0xa3b92138@@QEBDQEBW4module_id@2@2@Z 0000000180007ed4 f   libvcruntime:winapi_downlevel.obj
+ 0001:000072c0       $$000000                   00000001800082c0     libvcruntime:notify.obj
  0001:00007560       ??$BuildCatchObjectHelperInternal@$$CBU_s_HandlerType@@@@YAHPEAUEHExceptionRecord@@PEAXPEBU_s_HandlerType@@PEBU_s_CatchableType@@@Z 0000000180008560 f   libvcruntime:frame.obj
  0001:00007760       ??$BuildCatchObjectInternal@$$CBU_s_HandlerType@@@@YAXPEAUEHExceptionRecord@@PEAXPEBU_s_HandlerType@@PEBU_s_CatchableType@@@Z 0000000180008760 f   libvcruntime:frame.obj
  0001:00007820       ??$CatchIt@V__FrameHandler3@@@@YAXPEAUEHExceptionRecord@@PEA_KPEAU_CONTEXT@@PEAU_xDISPATCHER_CONTEXT@@PEBU_s_FuncInfo@@PEBU_s_HandlerType@@PEBU_s_CatchableType@@PEBU_s_TryBlockMapEntry@@H1EE@Z 0000000180008820 f   libvcruntime:frame.obj
@@ -1624,7 +1624,7 @@
  0001:0000ff70       _log_special_common        0000000180010f70 f   libucrt:log_special.obj
  0001:00010280       $$000000                   0000000180011280     libucrt:fpsr.obj
  0001:000107f0       $$000000                   00000001800117f0     libvcruntime:memcmp.obj
- 0001:000108d0       $$000000                   00000001800118d0     LIBCMT:_guard_dispatch_.obj
+ 0001:000108d0       $$000000                   00000001800118d0     LIBCMT:guard_dispatch.obj
  0001:000108f0       __scrt_is_nonwritable_in_current_image$filt$0 00000001800118f0 f   LIBCMT:utility.obj
  0001:00010908       ?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 0000000180011908 f   LIBCMT:dll_dllmain.obj
  0001:0001091f       ?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 000000018001191f f   LIBCMT:dll_dllmain.obj
@@ -1673,12 +1673,12 @@
  0002:00000b80       $cppxdata$??2@YAPEAX_KAEBUnothrow_t@std@@@Z 0000000180012b80     LIBCMT:new_scalar_nothrow.obj
  0002:00000c40       ?ExceptionTemplate@?1??UnwindNestedFrames@__FrameHandler3@@SAXPEA_KPEAUEHExceptionRecord@@PEAU_CONTEXT@@0PEAXPEBU_s_FuncInfo@@HHPEBU_s_HandlerType@@PEAU_xDISPATCHER_CONTEXT@@E@Z@4U_EXCEPTION_RECORD@@B 0000000180012c40     libvcruntime:risctrnsctrl.obj
  0002:00000ce0       ?ExceptionTemplate@?1??_CxxThrowException@@9@4UEHExceptionRecord@@B 0000000180012ce0     libvcruntime:throw.obj
- 0002:00000d20       ?module_names@?A0xcc2f1bd3@@3QBQEB_WB 0000000180012d20     libvcruntime:winapi_downlevel.obj
- 0002:00000df0       ?candidate_modules@?1??try_get_FlsAlloc@@YAP6AKP6AXPEAX@Z@ZXZ@4QBW4module_id@?A0xcc2f1bd3@@B 0000000180012df0     libvcruntime:winapi_downlevel.obj
- 0002:00000e08       ?candidate_modules@?1??try_get_FlsFree@@YAP6AHK@ZXZ@4QBW4module_id@?A0xcc2f1bd3@@B 0000000180012e08     libvcruntime:winapi_downlevel.obj
- 0002:00000e18       ?candidate_modules@?1??try_get_FlsGetValue@@YAP6APEAXK@ZXZ@4QBW4module_id@?A0xcc2f1bd3@@B 0000000180012e18     libvcruntime:winapi_downlevel.obj
- 0002:00000e30       ?candidate_modules@?1??try_get_FlsSetValue@@YAP6AHKPEAX@ZXZ@4QBW4module_id@?A0xcc2f1bd3@@B 0000000180012e30     libvcruntime:winapi_downlevel.obj
- 0002:00000e48       ?candidate_modules@?1??try_get_InitializeCriticalSectionEx@@YAP6AHPEAU_RTL_CRITICAL_SECTION@@KK@ZXZ@4QBW4module_id@?A0xcc2f1bd3@@B 0000000180012e48     libvcruntime:winapi_downlevel.obj
+ 0002:00000d20       ?module_names@?A0xa3b92138@@3QBQEB_WB 0000000180012d20     libvcruntime:winapi_downlevel.obj
+ 0002:00000df0       ?candidate_modules@?1??try_get_FlsAlloc@@YAP6AKP6AXPEAX@Z@ZXZ@4QBW4module_id@?A0xa3b92138@@B 0000000180012df0     libvcruntime:winapi_downlevel.obj
+ 0002:00000e08       ?candidate_modules@?1??try_get_FlsFree@@YAP6AHK@ZXZ@4QBW4module_id@?A0xa3b92138@@B 0000000180012e08     libvcruntime:winapi_downlevel.obj
+ 0002:00000e18       ?candidate_modules@?1??try_get_FlsGetValue@@YAP6APEAXK@ZXZ@4QBW4module_id@?A0xa3b92138@@B 0000000180012e18     libvcruntime:winapi_downlevel.obj
+ 0002:00000e30       ?candidate_modules@?1??try_get_FlsSetValue@@YAP6AHKPEAX@ZXZ@4QBW4module_id@?A0xa3b92138@@B 0000000180012e30     libvcruntime:winapi_downlevel.obj
+ 0002:00000e48       ?candidate_modules@?1??try_get_InitializeCriticalSectionEx@@YAP6AHPEAU_RTL_CRITICAL_SECTION@@KK@ZXZ@4QBW4module_id@?A0xa3b92138@@B 0000000180012e48     libvcruntime:winapi_downlevel.obj
  0002:00000ea0       ?tokenTable@@3QBQEBDB      0000000180012ea0     libvcruntime:undname.obj
  0002:00000f20       ?nameTable@@3QBQEBDB       0000000180012f20     libvcruntime:undname.obj
  0002:000011b0       ?rttiTable@@3QBQEBDB       00000001800131b0     libvcruntime:undname.obj
@@ -1787,7 +1787,7 @@
  0002:00008430       $unwind$atexit             000000018001a430     LIBCMT:utility.obj
  0002:00008430       $unwind$uninitialize_allocated_memory 000000018001a430     libucrt:initialization.obj
  0002:00008430       $unwind$__acrt_initialize_command_line 000000018001a430     libucrt:argv_data.obj
- 0002:00008430       $unwind$__GSHandlerCheck   000000018001a430     LIBCMT:_gshandler_.obj
+ 0002:00008430       $unwind$__GSHandlerCheck   000000018001a430     LIBCMT:gshandler.obj
  0002:00008430       $unwind$?GetCurrentState@__FrameHandler3@@SAHPEA_KPEAU_xDISPATCHER_CONTEXT@@PEBU_s_FuncInfo@@@Z 000000018001a430     libvcruntime:ehstate.obj
  0002:00008430       $unwind$__vcrt_initialize  000000018001a430     libvcruntime:initialization.obj
  0002:00008430       $unwind$__scrt_acquire_startup_lock 000000018001a430     LIBCMT:utility.obj
@@ -1921,7 +1921,7 @@
  0002:00008734       $chain$5$?RegisterServer@CComModule@ATL@@QEAAJHPEBU_GUID@@@Z 000000018001a734     OposInterfaces.obj
  0002:00008750       $unwind$__acrt_errno_map_os_error 000000018001a750     libucrt:errno.obj
  0002:00008750       $unwind$__acrt_FlsSetValue 000000018001a750     libucrt:winapi_thunks.obj
- 0002:00008750       $unwind$_RTC_Terminate     000000018001a750     LIBCMT:_initsect_.obj
+ 0002:00008750       $unwind$_RTC_Terminate     000000018001a750     LIBCMT:initsect.obj
  0002:00008750       $unwind$__acrt_LocaleNameToLCID 000000018001a750     libucrt:winapi_thunks.obj
  0002:00008750       $unwind$_fclose_nolock     000000018001a750     libucrt:fclose.obj
  0002:00008750       $unwind$??_Gexception@std@@UEAAPEAXI@Z 000000018001a750     LIBCMT:throw_bad_alloc.obj
@@ -1938,7 +1938,7 @@
  0002:00008750       $unwind$??$common_initialize_environment_nolock@D@@YAHXZ 000000018001a750     libucrt:environment_initialization.obj
  0002:00008750       $unwind$_FindAndUnlinkFrame 000000018001a750     libvcruntime:risctrnsctrl.obj
  0002:00008750       $unwind$__acrt_getptd      000000018001a750     libucrt:per_thread_data.obj
- 0002:00008750       $unwind$_RTC_Initialize    000000018001a750     LIBCMT:_initsect_.obj
+ 0002:00008750       $unwind$_RTC_Initialize    000000018001a750     LIBCMT:initsect.obj
  0002:00008750       $unwind$__acrt_execute_uninitializers 000000018001a750     libucrt:shared_initialization.obj
  0002:00008750       $unwind$??_GCComModule@ATL@@UEAAPEAXI@Z 000000018001a750     OposInterfaces.obj
  0002:00008750       $unwind$??0CAtlBaseModule@ATL@@QEAA@XZ 000000018001a750     atls:atlbase.obj
@@ -1994,9 +1994,9 @@
  0002:00008a10       $unwind$_putwch_nolock     000000018001aa10     libucrt:putwch.obj
  0002:00008a18       $unwind$capture_current_context 000000018001aa18     LIBCMT:gs_report.obj
  0002:00008a24       $unwind$capture_previous_context 000000018001aa24     LIBCMT:gs_report.obj
- 0002:00008a30       $unwind$__GSHandlerCheckCommon 000000018001aa30     LIBCMT:_gshandler_.obj
- 0002:00008a38       $xdatasym                  000000018001aa38     LIBCMT:_chkstk_.obj
- 0002:00008a40       $xdatasym                  000000018001aa40     LIBCMT:_amdsecgs_.obj
+ 0002:00008a30       $unwind$__GSHandlerCheckCommon 000000018001aa30     LIBCMT:gshandler.obj
+ 0002:00008a38       $xdatasym                  000000018001aa38     LIBCMT:chkstk.obj
+ 0002:00008a40       $xdatasym                  000000018001aa40     LIBCMT:amdsecgs.obj
  0002:00008a44       $unwind$?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 000000018001aa44     LIBCMT:dll_dllmain.obj
  0002:00008a80       $unwind$?fin$0@?0???$?RV<lambda_a37b2b86f63e897a80ea819b0eb08c01>@@AEAV<lambda_38ce7e780aa69e748d6df282ebc68efe>@@V<lambda_99fb1378e971ab6e7edea83e3a7a83a2>@@@?$__crt_seh_guarded_call@H@@QEAAH$$QEAV<lambda_a37b2b86f63e897a80ea819b0eb08c01>@@AEAV<lambda_38ce7e780aa69e748d6df282ebc68efe>@@$$QEAV<lambda_99fb1378e971ab6e7edea83e3a7a83a2>@@@Z@4HA 000000018001aa80     libucrt:commit.obj
  0002:00008a80       $unwind$?fin$0@?0???$?RV<lambda_450d765d439847d4c735a33c368b5fc0>@@AEAV<lambda_44731a7d0e6d81c3e6aa82d741081786>@@V<lambda_601a2a7da3b7a96e9554ac7215c4b07c>@@@?$__crt_seh_guarded_call@P6AXH@Z@@QEAAP6AXH@Z$$QEAV<lambda_450d765d439847d4c735a33c368b5fc0>@@AEAV<lambda_44731a7d0e6d81c3e6aa82d741081786>@@$$QEAV<lambda_601a2a7da3b7a96e9554ac7215c4b07c>@@@Z@4HA 000000018001aa80     libucrt:signal.obj
@@ -2033,7 +2033,7 @@
  0002:00008a88       $unwind$?dllmain_crt_process_detach@@YAH_N@Z 000000018001aa88     LIBCMT:dll_dllmain.obj
  0002:00008ac0       $unwind$?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018001aac0     LIBCMT:dll_dllmain.obj
  0002:00008ae8       $unwind$?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 000000018001aae8     LIBCMT:dll_dllmain.obj
- 0002:00008af0       $unwind$__isa_available_init 000000018001aaf0     LIBCMT:_cpu_disp_.obj
+ 0002:00008af0       $unwind$__isa_available_init 000000018001aaf0     LIBCMT:cpu_disp.obj
  0002:00008b04       $unwind$__scrt_fastfail    000000018001ab04     LIBCMT:utility_desktop.obj
  0002:00008b14       $unwind$??2@YAPEAX_KAEBUnothrow_t@std@@@Z 000000018001ab14     LIBCMT:new_scalar_nothrow.obj
  0002:00008b24       $stateUnwindMap$??2@YAPEAX_KAEBUnothrow_t@std@@@Z 000000018001ab24     LIBCMT:new_scalar_nothrow.obj
@@ -2042,7 +2042,7 @@
  0002:00008b60       $ip2state$??2@YAPEAX_KAEBUnothrow_t@std@@@Z 000000018001ab60     LIBCMT:new_scalar_nothrow.obj
  0002:00008b68       $unwind$?catch$0@?0???2@YAPEAX_KAEBUnothrow_t@std@@@Z@4HA 000000018001ab68     LIBCMT:new_scalar_nothrow.obj
  0002:00008b78       $unwind$__security_init_cookie 000000018001ab78     LIBCMT:gs_support.obj
- 0002:00008b88       $xdatasym                  000000018001ab88     LIBCMT:_guard_dispatch_.obj
+ 0002:00008b88       $xdatasym                  000000018001ab88     LIBCMT:guard_dispatch.obj
  0002:00008b8c       $unwind$?__scrt_throw_std_bad_array_new_length@@YAXXZ 000000018001ab8c     LIBCMT:throw_bad_alloc.obj
  0002:00008b8c       $unwind$?__scrt_throw_std_bad_alloc@@YAXXZ 000000018001ab8c     LIBCMT:throw_bad_alloc.obj
  0002:00008b8c       $unwind$__dcrt_lowio_initialize_console_output 000000018001ab8c     libucrt:initcon.obj
@@ -2050,7 +2050,7 @@
  0002:00008b94       $unwind$wcsstr             000000018001ab94     libvcruntime:wcsstr.obj
  0002:00008ba8       $xdatasym                  000000018001aba8     libvcruntime:memcpy.obj
  0002:00008bb8       $xdatasym                  000000018001abb8     libvcruntime:memset.obj
- 0002:00008bc8       $unwind$__C_specific_handler 000000018001abc8     libvcruntime:_riscchandler_.obj
+ 0002:00008bc8       $unwind$__C_specific_handler 000000018001abc8     libvcruntime:riscchandler.obj
  0002:00008be4       $unwind$?GetEstablisherFrame@__FrameHandler3@@SAPEA_KPEA_KPEAU_xDISPATCHER_CONTEXT@@PEBU_s_FuncInfo@@0@Z 000000018001abe4     libvcruntime:risctrnsctrl.obj
  0002:00008bfc       $unwind$?UnwindNestedFrames@__FrameHandler3@@SAXPEA_KPEAUEHExceptionRecord@@PEAU_CONTEXT@@0PEAXPEBU_s_FuncInfo@@HHPEBU_s_HandlerType@@PEAU_xDISPATCHER_CONTEXT@@E@Z 000000018001abfc     libvcruntime:risctrnsctrl.obj
  0002:00008c10       $unwind$?GetRangeOfTrysToCheck@__FrameHandler3@@SA?AU?$pair@Viterator@TryBlockMap@__FrameHandler3@@V123@@std@@AEAVTryBlockMap@1@HH@Z 000000018001ac10     libvcruntime:risctrnsctrl.obj
@@ -2065,10 +2065,10 @@
  0002:00008c88       $unwind$__vcrt_initialize_winapi_thunks 000000018001ac88     libvcruntime:winapi_downlevel.obj
  0002:00008c90       $unwind$__vcrt_uninitialize_winapi_thunks 000000018001ac90     libvcruntime:winapi_downlevel.obj
  0002:00008c98       $unwind$??R<lambda_f03950bc5685219e0bcd2087efbe011e>@@QEBAHXZ 000000018001ac98     libucrt:onexit.obj
- 0002:00008c98       $unwind$?try_get_function@@YAPEAXW4function_id@?A0xcc2f1bd3@@QEBDQEBW4module_id@2@2@Z 000000018001ac98     libvcruntime:winapi_downlevel.obj
+ 0002:00008c98       $unwind$?try_get_function@@YAPEAXW4function_id@?A0xa3b92138@@QEBDQEBW4module_id@2@2@Z 000000018001ac98     libvcruntime:winapi_downlevel.obj
  0002:00008c98       $unwind$?IsInExceptionSpec@@YAEPEAUEHExceptionRecord@@PEBU_s_ESTypeList@@@Z 000000018001ac98     libvcruntime:frame.obj
  0002:00008c98       $unwind$?try_get_function@@YAPEAXW4function_id@?A0x391cf84c@@QEBDQEBW4module_id@2@2@Z 000000018001ac98     libucrt:winapi_thunks.obj
- 0002:00008cb8       $xdatasym                  000000018001acb8     libvcruntime:_notify_.obj
+ 0002:00008cb8       $xdatasym                  000000018001acb8     libvcruntime:notify.obj
  0002:00008cc4       $unwind$__DestructExceptionObject 000000018001acc4     libvcruntime:ehhelpers.obj
  0002:00008ce4       $unwind$?FrameUnwindToState@__FrameHandler3@@SAXPEA_KPEAU_xDISPATCHER_CONTEXT@@PEBU_s_FuncInfo@@H@Z 000000018001ace4     libvcruntime:frame.obj
  0002:00008d30       $unwind$?CxxCallCatchBlock@__FrameHandler3@@SAPEAXPEAU_EXCEPTION_RECORD@@@Z 000000018001ad30     libvcruntime:frame.obj
@@ -2341,8 +2341,8 @@
  0004:00000510       $pdata$capture_current_context 000000018001f510     LIBCMT:gs_report.obj
  0004:0000051c       $pdata$capture_previous_context 000000018001f51c     LIBCMT:gs_report.obj
  0004:00000528       $pdata$__raise_securityfailure 000000018001f528     LIBCMT:gs_report.obj
- 0004:00000534       $pdata$__GSHandlerCheckCommon 000000018001f534     LIBCMT:_gshandler_.obj
- 0004:00000540       $pdata$__GSHandlerCheck    000000018001f540     LIBCMT:_gshandler_.obj
+ 0004:00000534       $pdata$__GSHandlerCheckCommon 000000018001f534     LIBCMT:gshandler.obj
+ 0004:00000540       $pdata$__GSHandlerCheck    000000018001f540     LIBCMT:gshandler.obj
  0004:00000564       $pdata$?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 000000018001f564     LIBCMT:dll_dllmain.obj
  0004:00000570       $pdata$?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 000000018001f570     LIBCMT:dll_dllmain.obj
  0004:0000057c       $pdata$?dllmain_crt_process_detach@@YAH_N@Z 000000018001f57c     LIBCMT:dll_dllmain.obj
@@ -2351,14 +2351,14 @@
  0004:000005a0       $pdata$?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018001f5a0     LIBCMT:dll_dllmain.obj
  0004:000005ac       $pdata$?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 000000018001f5ac     LIBCMT:dll_dllmain.obj
  0004:000005b8       $pdata$_DllMainCRTStartup  000000018001f5b8     LIBCMT:dll_dllmain.obj
- 0004:000005c4       $pdata$__isa_available_init 000000018001f5c4     LIBCMT:_cpu_disp_.obj
+ 0004:000005c4       $pdata$__isa_available_init 000000018001f5c4     LIBCMT:cpu_disp.obj
  0004:000005d0       $pdata$__scrt_fastfail     000000018001f5d0     LIBCMT:utility_desktop.obj
  0004:000005dc       $pdata$??2@YAPEAX_KAEBUnothrow_t@std@@@Z 000000018001f5dc     LIBCMT:new_scalar_nothrow.obj
  0004:000005e8       $pdata$?catch$0@?0???2@YAPEAX_KAEBUnothrow_t@std@@@Z@4HA 000000018001f5e8     LIBCMT:new_scalar_nothrow.obj
  0004:000005f4       $pdata$__security_init_cookie 000000018001f5f4     LIBCMT:gs_support.obj
  0004:00000600       $pdata$__scrt_initialize_default_local_stdio_options 000000018001f600     LIBCMT:default_local_stdio_options.obj
- 0004:0000060c       $pdata$_RTC_Initialize     000000018001f60c     LIBCMT:_initsect_.obj
- 0004:00000618       $pdata$_RTC_Terminate      000000018001f618     LIBCMT:_initsect_.obj
+ 0004:0000060c       $pdata$_RTC_Initialize     000000018001f60c     LIBCMT:initsect.obj
+ 0004:00000618       $pdata$_RTC_Terminate      000000018001f618     LIBCMT:initsect.obj
  0004:00000630       $pdata$??2@YAPEAX_K@Z      000000018001f630     LIBCMT:new_scalar.obj
  0004:0000063c       $pdata$??0exception@std@@QEAA@AEBV01@@Z 000000018001f63c     LIBCMT:throw_bad_alloc.obj
  0004:00000648       $pdata$??_Gexception@std@@UEAAPEAXI@Z 000000018001f648     LIBCMT:throw_bad_alloc.obj
@@ -2376,7 +2376,7 @@
  0004:000006e4       $pdata$__vcrt_uninitialize_critical 000000018001f6e4     libvcruntime:initialization.obj
  0004:000006f0       $pdata$__vcrt_thread_attach 000000018001f6f0     libvcruntime:initialization.obj
  0004:000006fc       $pdata$__vcrt_thread_detach 000000018001f6fc     libvcruntime:initialization.obj
- 0004:00000708       $pdata$__C_specific_handler 000000018001f708     libvcruntime:_riscchandler_.obj
+ 0004:00000708       $pdata$__C_specific_handler 000000018001f708     libvcruntime:riscchandler.obj
  0004:00000714       $pdata$?CatchTryBlock@__FrameHandler3@@SAPEBU_s_TryBlockMapEntry@@PEBU_s_FuncInfo@@H@Z 000000018001f714     libvcruntime:risctrnsctrl.obj
  0004:00000720       $pdata$?ExecutionInCatch@__FrameHandler3@@SA_NPEAU_xDISPATCHER_CONTEXT@@PEBU_s_FuncInfo@@@Z 000000018001f720     libvcruntime:risctrnsctrl.obj
  0004:0000072c       $pdata$?FrameUnwindToEmptyState@__FrameHandler3@@SAXPEA_KPEAU_xDISPATCHER_CONTEXT@@PEBU_s_FuncInfo@@@Z 000000018001f72c     libvcruntime:risctrnsctrl.obj
@@ -2411,7 +2411,7 @@
  0004:00000888       $pdata$__vcrt_InitializeCriticalSectionEx 000000018001f888     libvcruntime:winapi_downlevel.obj
  0004:00000894       $pdata$__vcrt_initialize_winapi_thunks 000000018001f894     libvcruntime:winapi_downlevel.obj
  0004:000008a0       $pdata$__vcrt_uninitialize_winapi_thunks 000000018001f8a0     libvcruntime:winapi_downlevel.obj
- 0004:000008ac       $pdata$?try_get_function@@YAPEAXW4function_id@?A0xcc2f1bd3@@QEBDQEBW4module_id@2@2@Z 000000018001f8ac     libvcruntime:winapi_downlevel.obj
+ 0004:000008ac       $pdata$?try_get_function@@YAPEAXW4function_id@?A0xa3b92138@@QEBDQEBW4module_id@2@2@Z 000000018001f8ac     libvcruntime:winapi_downlevel.obj
  0004:000008dc       $pdata$_IsExceptionObjectToBeDestroyed 000000018001f8dc     libvcruntime:ehhelpers.obj
  0004:000008e8       $pdata$__FrameUnwindFilter 000000018001f8e8     libvcruntime:ehhelpers.obj
  0004:000008f4       $pdata$__DestructExceptionObject 000000018001f8f4     libvcruntime:ehhelpers.obj
@@ -2651,5 +2651,5 @@
  0004:000013a4       $pdata$_IsNonwritableInCurrentImage$filt$0 00000001800203a4     LIBCMT:pesect.obj
  0005:00000140       $R000000                   0000000180021140     OposInterfaces.res
  0005:00000a20       $R0008E0                   0000000180021a20     OposInterfaces.res
- 0005:00012aa8       $R012968                   0000000180033aa8     OposInterfaces.res
- 0005:00012ae8       $R0129A8                   0000000180033ae8     OposInterfaces.res
+ 0005:00012700       $R0125C0                   0000000180033700     OposInterfaces.res
+ 0005:00012740       $R012600                   0000000180033740     OposInterfaces.res

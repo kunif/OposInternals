@@ -47,12 +47,11 @@ import "ocidl.idl";
     version(1.0),
     helpstring("OPOS 1.14.1 Interfaces")
 ]
-library OPOSINTERNALSLib
+library OPOSINTERFACESLib
 {
     importlib("stdole32.tlb");
     importlib("stdole2.tlb");
 
-    #include "OposCoIdl.h"
     #include "IFC\OposSoIdlBelt.h"
     #include "IFC\OposSoIdlBillAcceptor.h"
     #include "IFC\OposSoIdlBillDispenser.h"

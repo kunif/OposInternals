@@ -46,9 +46,6 @@
     <ClInclude Include="OposInterfaces.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="OposCoIdl.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="IFC\OposSoIdlBelt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
