@@ -73,7 +73,7 @@ Common Control Objectsの定数定義DLL(Opos_Constants.dll)に啓発されて�
   - (必要ならばフルパス名を指定し)RegAsm "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\OpenPOS.Devices.Opos_Interfaces\\v4.0_1.14.1.0__ad2c9a67c3439201\\OpenPOS.Devices.Opos_Interfaces.dll" /register を実行。
     - 64bitOS時 : "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\RegAsm.exe"  
     - 32bitOS時 : "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\RegAsm.exe"  
-  - (同じく必要ならばフルパス名を指定し)RegAsm "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\OpenPOS.Devices.Opos_Interfaces\\v4.0_1.14.1.0__ad2c9a67c3439201\\OpenPOS.Devices.Opos_Internals.dll" /register を実行。
+  - (同じく必要ならばフルパス名を指定し)RegAsm "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\OpenPOS.Devices.Opos_Internals\\v4.0_1.14.1.0__ad2c9a67c3439201\\OpenPOS.Devices.Opos_Internals.dll" /register を実行。
   - 両方とも正常に登録されていることを確認してコマンドプロンプトを終了。  
 
 

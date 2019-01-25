@@ -162,10 +162,10 @@ enum __MIDL___MIDL_itf_OposInternals_0000_0000_0003
         PIDXBacc_CapNearFullSensor	= 27504,
         PIDXBacc_CapPauseDeposit	= 27505,
         PIDXBacc_CapRealTimeData	= 27506,
-        PIDXBacc_CurrencyCode	= 127001,
-        PIDXBacc_DepositCashList	= 127002,
-        PIDXBacc_DepositCodeList	= 127003,
-        PIDXBacc_DepositCounts	= 127004
+        PIDXBacc_CurrencyCode	= 1027001,
+        PIDXBacc_DepositCashList	= 1027002,
+        PIDXBacc_DepositCodeList	= 1027003,
+        PIDXBacc_DepositCounts	= 1027004
     } 	OPOSBillAcceptorInternals;
 
 typedef /* [public][helpstring] */ 
@@ -181,10 +181,10 @@ enum __MIDL___MIDL_itf_OposInternals_0000_0000_0004
         PIDXBdsp_CapFullSensor	= 28502,
         PIDXBdsp_CapJamSensor	= 28503,
         PIDXBdsp_CapNearFullSensor	= 28504,
-        PIDXBdsp_CurrencyCashList	= 128001,
-        PIDXBdsp_CurrencyCode	= 128002,
-        PIDXBdsp_CurrencyCodeList	= 128003,
-        PIDXBdsp_ExitCashList	= 128004
+        PIDXBdsp_CurrencyCashList	= 1028001,
+        PIDXBdsp_CurrencyCode	= 1028002,
+        PIDXBdsp_CurrencyCodeList	= 1028003,
+        PIDXBdsp_ExitCashList	= 1028004
     } 	OPOSBillDispenserInternals;
 
 typedef /* [public][helpstring] */ 
@@ -205,9 +205,9 @@ enum __MIDL___MIDL_itf_OposInternals_0000_0000_0005
         PIDXBio_CapSensorOrientation	= 25505,
         PIDXBio_CapSensorType	= 25506,
         PIDXBio_CapTemplateAdaptation	= 25507,
-        PIDXBio_AlgorithmList	= 125001,
-        PIDXBio_BIR	= 125002,
-        PIDXBio_RawSensorData	= 125003
+        PIDXBio_AlgorithmList	= 1025001,
+        PIDXBio_BIR	= 1025002,
+        PIDXBio_RawSensorData	= 1025003
     } 	OPOSBiometricsInternals;
 
 typedef /* [public][helpstring] */ 
@@ -225,8 +225,8 @@ enum __MIDL___MIDL_itf_OposInternals_0000_0000_0006
         PIDXBb_Timeout	= 15010,
         PIDXBb_UnitsOnline	= 15011,
         PIDXBb_CapTone	= 15501,
-        PIDXBb_ErrorString	= 115001,
-        PIDXBb_EventString	= 115002
+        PIDXBb_ErrorString	= 1015001,
+        PIDXBb_EventString	= 1015002
     } 	OPOSBumpBarInternals;
 
 typedef /* [public][helpstring] */ 
@@ -256,13 +256,13 @@ enum __MIDL___MIDL_itf_OposInternals_0000_0000_0007
         PIDXChan_CapRepayDeposit	= 13509,
         PIDXChan_CapJamSensor	= 13510,
         PIDXChan_CapRealTimeData	= 13511,
-        PIDXChan_CurrencyCashList	= 113001,
-        PIDXChan_CurrencyCode	= 113002,
-        PIDXChan_CurrencyCodeList	= 113003,
-        PIDXChan_ExitCashList	= 113004,
-        PIDXChan_DepositCashList	= 113005,
-        PIDXChan_DepositCodeList	= 113006,
-        PIDXChan_DepositCounts	= 113007
+        PIDXChan_CurrencyCashList	= 1013001,
+        PIDXChan_CurrencyCode	= 1013002,
+        PIDXChan_CurrencyCodeList	= 1013003,
+        PIDXChan_ExitCashList	= 1013004,
+        PIDXChan_DepositCashList	= 1013005,
+        PIDXChan_DepositCodeList	= 1013006,
+        PIDXChan_DepositCounts	= 1013007
     } 	OPOSCashChangerInternals;
 
 typedef /* [public][helpstring] */ 
@@ -299,17 +299,17 @@ enum __MIDL___MIDL_itf_OposInternals_0000_0000_0009
         PIDXCat_CapLockTerminal	= 19516,
         PIDXCat_CapLogStatus	= 19517,
         PIDXCat_CapUnlockTerminal	= 19518,
-        PIDXCat_AccountNumber	= 119001,
-        PIDXCat_AdditionalSecurityInformation	= 119002,
-        PIDXCat_ApprovalCode	= 119003,
-        PIDXCat_CardCompanyID	= 119004,
-        PIDXCat_CenterResultCode	= 119005,
-        PIDXCat_DailyLog	= 119006,
-        PIDXCat_PaymentCondition	= 119007,
-        PIDXCat_PaymentDetail	= 119008,
-        PIDXCat_SequenceNumber	= 119009,
-        PIDXCat_SlipNumber	= 119010,
-        PIDXCat_TransactionNumber	= 119011
+        PIDXCat_AccountNumber	= 1019001,
+        PIDXCat_AdditionalSecurityInformation	= 1019002,
+        PIDXCat_ApprovalCode	= 1019003,
+        PIDXCat_CardCompanyID	= 1019004,
+        PIDXCat_CenterResultCode	= 1019005,
+        PIDXCat_DailyLog	= 1019006,
+        PIDXCat_PaymentCondition	= 1019007,
+        PIDXCat_PaymentDetail	= 1019008,
+        PIDXCat_SequenceNumber	= 1019009,
+        PIDXCat_SlipNumber	= 1019010,
+        PIDXCat_TransactionNumber	= 1019011
     } 	OPOSCATInternals;
 
 typedef /* [public][helpstring] */ 
@@ -341,10 +341,10 @@ enum __MIDL___MIDL_itf_OposInternals_0000_0000_0010
         PIDXChk_CapValidationDevice	= 22511,
         PIDXChk_CapAutoContrast	= 22512,
         PIDXChk_CapContrast	= 22513,
-        PIDXChk_FileID	= 122001,
-        PIDXChk_ImageData	= 122002,
-        PIDXChk_ImageTagData	= 122003,
-        PIDXChk_QualityList	= 122004
+        PIDXChk_FileID	= 1022001,
+        PIDXChk_ImageData	= 1022002,
+        PIDXChk_ImageTagData	= 1022003,
+        PIDXChk_QualityList	= 1022004
     } 	OPOSCheckScannerInternals;
 
 typedef /* [public][helpstring] */ 
@@ -360,10 +360,10 @@ enum __MIDL___MIDL_itf_OposInternals_0000_0000_0011
         PIDXCacc_CapNearFullSensor	= 29504,
         PIDXCacc_CapPauseDeposit	= 29505,
         PIDXCacc_CapRealTimeData	= 29506,
-        PIDXCacc_CurrencyCode	= 129001,
-        PIDXCacc_DepositCashList	= 129002,
-        PIDXCacc_DepositCodeList	= 129003,
-        PIDXCacc_DepositCounts	= 129004
+        PIDXCacc_CurrencyCode	= 1029001,
+        PIDXCacc_DepositCashList	= 1029002,
+        PIDXCacc_DepositCodeList	= 1029003,
+        PIDXCacc_DepositCounts	= 1029004
     } 	OPOSCoinAcceptorInternals;
 
 typedef /* [public][helpstring] */ 
@@ -400,7 +400,7 @@ enum __MIDL___MIDL_itf_OposInternals_0000_0000_0013
         PIDXEj_CapSuspendPrintContent	= 26513,
         PIDXEj_CapSuspendQueryContent	= 26514,
         PIDXEj_CapWaterMark	= 26515,
-        PIDXEj_MediumID	= 126001
+        PIDXEj_MediumID	= 1026001
     } 	OPOSElectronicJournalInternals;
 
 typedef /* [public][helpstring] */ 
@@ -436,18 +436,18 @@ enum __MIDL___MIDL_itf_OposInternals_0000_0000_0014
         PIDXEvrw_CapPINDevice	= 32520,
         PIDXEvrw_CapTrainingMode	= 32521,
         PIDXEvrw_CapMembershipCertificate	= 32522,
-        PIDXEvrw_AccountNumber	= 132001,
-        PIDXEvrw_AdditionalSecurityInformation	= 132002,
-        PIDXEvrw_ApprovalCode	= 132003,
-        PIDXEvrw_CardServiceList	= 132004,
-        PIDXEvrw_CurrentService	= 132005,
-        PIDXEvrw_ExpirationDate	= 132006,
-        PIDXEvrw_LastUsedDate	= 132007,
-        PIDXEvrw_MediumID	= 132008,
-        PIDXEvrw_ReaderWriterServiceList	= 132009,
-        PIDXEvrw_TransactionLog	= 132010,
-        PIDXEvrw_VoucherID	= 132011,
-        PIDXEvrw_VoucherIDList	= 132012
+        PIDXEvrw_AccountNumber	= 1032001,
+        PIDXEvrw_AdditionalSecurityInformation	= 1032002,
+        PIDXEvrw_ApprovalCode	= 1032003,
+        PIDXEvrw_CardServiceList	= 1032004,
+        PIDXEvrw_CurrentService	= 1032005,
+        PIDXEvrw_ExpirationDate	= 1032006,
+        PIDXEvrw_LastUsedDate	= 1032007,
+        PIDXEvrw_MediumID	= 1032008,
+        PIDXEvrw_ReaderWriterServiceList	= 1032009,
+        PIDXEvrw_TransactionLog	= 1032010,
+        PIDXEvrw_VoucherID	= 1032011,
+        PIDXEvrw_VoucherIDList	= 1032012
     } 	OPOSElectronicValueRWInternals;
 
 typedef /* [public][helpstring] */ 
@@ -546,13 +546,13 @@ enum __MIDL___MIDL_itf_OposInternals_0000_0000_0015
         PIDXFptr_CapTotalizerType	= 16555,
         PIDXFptr_CapPositiveSubtotalAdjustment	= 16556,
         PIDXFptr_ErrorString	= 16001,
-        PIDXFptr_PredefinedPaymentLines	= 116002,
-        PIDXFptr_ReservedWord	= 116003,
-        PIDXFptr_AdditionalHeader	= 116004,
-        PIDXFptr_AdditionalTrailer	= 116005,
-        PIDXFptr_ChangeDue	= 116006,
-        PIDXFptr_PostLine	= 116007,
-        PIDXFptr_PreLine	= 116008
+        PIDXFptr_PredefinedPaymentLines	= 1016002,
+        PIDXFptr_ReservedWord	= 1016003,
+        PIDXFptr_AdditionalHeader	= 1016004,
+        PIDXFptr_AdditionalTrailer	= 1016005,
+        PIDXFptr_ChangeDue	= 1016006,
+        PIDXFptr_PostLine	= 1016007,
+        PIDXFptr_PreLine	= 1016008
     } 	OPOSFiscalPrinterInternals;
 
 typedef /* [public][helpstring] */ 
@@ -584,7 +584,7 @@ enum __MIDL___MIDL_itf_OposInternals_0000_0000_0017
         PIDXImg_CapImageData	= 30505,
         PIDXImg_CapImageQuality	= 30506,
         PIDXImg_CapVideoData	= 30507,
-        PIDXImg_FrameData	= 130001
+        PIDXImg_FrameData	= 1030001
     } 	OPOSImageScannerInternals;
 
 typedef /* [public][helpstring] */ 
@@ -604,7 +604,7 @@ enum __MIDL___MIDL_itf_OposInternals_0000_0000_0019
         PIDXLock_KeyPosition	= 4001,
         PIDXLock_PositionCount	= 4002,
         PIDXLock_CapKeylockType	= 4501,
-        PIDXLock_ElectronicKeyValue	= 104001
+        PIDXLock_ElectronicKeyValue	= 1004001
     } 	OPOSKeylockInternals;
 
 typedef /* [public][helpstring] */ 
@@ -659,9 +659,9 @@ enum __MIDL___MIDL_itf_OposInternals_0000_0000_0021
         PIDXDisp_CapBitmap	= 5513,
         PIDXDisp_CapMapCharacterSet	= 5514,
         PIDXDisp_CapScreenMode	= 5515,
-        PIDXDisp_CharacterSetList	= 105001,
-        PIDXDisp_CustomGlyphList	= 105002,
-        PIDXDisp_ScreenModeList	= 105003
+        PIDXDisp_CharacterSetList	= 1005001,
+        PIDXDisp_CustomGlyphList	= 1005002,
+        PIDXDisp_ScreenModeList	= 1005003
     } 	OPOSLineDisplayInternals;
 
 typedef /* [public][helpstring] */ 
@@ -670,13 +670,13 @@ enum __MIDL___MIDL_itf_OposInternals_0000_0000_0022
         PIDXMicr_CheckType	= 6001,
         PIDXMicr_CountryCode	= 6002,
         PIDXMicr_CapValidationDevice	= 6501,
-        PIDXMicr_AccountNumber	= 106001,
-        PIDXMicr_Amount	= 106002,
-        PIDXMicr_BankNumber	= 106003,
-        PIDXMicr_EPC	= 106004,
-        PIDXMicr_RawData	= 106005,
-        PIDXMicr_SerialNumber	= 106006,
-        PIDXMicr_TransitNumber	= 106007
+        PIDXMicr_AccountNumber	= 1006001,
+        PIDXMicr_Amount	= 1006002,
+        PIDXMicr_BankNumber	= 1006003,
+        PIDXMicr_EPC	= 1006004,
+        PIDXMicr_RawData	= 1006005,
+        PIDXMicr_SerialNumber	= 1006006,
+        PIDXMicr_TransitNumber	= 1006007
     } 	OPOSMICRInternals;
 
 typedef /* [public][helpstring] */ 
@@ -713,31 +713,31 @@ enum __MIDL___MIDL_itf_OposInternals_0000_0000_0024
         PIDXMsr_CapDataEncryption	= 7506,
         PIDXMsr_CapDeviceAuthentication	= 7507,
         PIDXMsr_CapTrackDataMasking	= 7508,
-        PIDXMsr_AccountNumber	= 107001,
-        PIDXMsr_ExpirationDate	= 107002,
-        PIDXMsr_FirstName	= 107003,
-        PIDXMsr_MiddleInitial	= 107004,
-        PIDXMsr_ServiceCode	= 107005,
-        PIDXMsr_Suffix	= 107006,
-        PIDXMsr_Surname	= 107007,
-        PIDXMsr_Title	= 107008,
-        PIDXMsr_Track1Data	= 107009,
-        PIDXMsr_Track1DiscretionaryData	= 107010,
-        PIDXMsr_Track2Data	= 107011,
-        PIDXMsr_Track2DiscretionaryData	= 107012,
-        PIDXMsr_Track3Data	= 107013,
-        PIDXMsr_Track4Data	= 107014,
-        PIDXMsr_AdditionalSecurityInformation	= 107015,
-        PIDXMsr_CapCardAuthentication	= 107016,
-        PIDXMsr_CardAuthenticationData	= 107017,
-        PIDXMsr_CardPropertyList	= 107018,
-        PIDXMsr_CardType	= 107019,
-        PIDXMsr_CardTypeList	= 107020,
-        PIDXMsr_Track1EncryptedData	= 107021,
-        PIDXMsr_Track2EncryptedData	= 107022,
-        PIDXMsr_Track3EncryptedData	= 107023,
-        PIDXMsr_Track4EncryptedData	= 107024,
-        PIDXMsr_WriteCardType	= 107025
+        PIDXMsr_AccountNumber	= 1007001,
+        PIDXMsr_ExpirationDate	= 1007002,
+        PIDXMsr_FirstName	= 1007003,
+        PIDXMsr_MiddleInitial	= 1007004,
+        PIDXMsr_ServiceCode	= 1007005,
+        PIDXMsr_Suffix	= 1007006,
+        PIDXMsr_Surname	= 1007007,
+        PIDXMsr_Title	= 1007008,
+        PIDXMsr_Track1Data	= 1007009,
+        PIDXMsr_Track1DiscretionaryData	= 1007010,
+        PIDXMsr_Track2Data	= 1007011,
+        PIDXMsr_Track2DiscretionaryData	= 1007012,
+        PIDXMsr_Track3Data	= 1007013,
+        PIDXMsr_Track4Data	= 1007014,
+        PIDXMsr_AdditionalSecurityInformation	= 1007015,
+        PIDXMsr_CapCardAuthentication	= 1007016,
+        PIDXMsr_CardAuthenticationData	= 1007017,
+        PIDXMsr_CardPropertyList	= 1007018,
+        PIDXMsr_CardType	= 1007019,
+        PIDXMsr_CardTypeList	= 1007020,
+        PIDXMsr_Track1EncryptedData	= 1007021,
+        PIDXMsr_Track2EncryptedData	= 1007022,
+        PIDXMsr_Track3EncryptedData	= 1007023,
+        PIDXMsr_Track4EncryptedData	= 1007024,
+        PIDXMsr_WriteCardType	= 1007025
     } 	OPOSMSRInternals;
 
 typedef /* [public][helpstring] */ 
@@ -754,17 +754,17 @@ enum __MIDL___MIDL_itf_OposInternals_0000_0000_0025
         PIDXPpad_CapLanguage	= 17503,
         PIDXPpad_CapMACCalculation	= 17504,
         PIDXPpad_CapTone	= 17505,
-        PIDXPpad_AccountNumber	= 117001,
-        PIDXPpad_AdditionalSecurityInformation	= 117002,
-        PIDXPpad_AvailableLanguagesList	= 117003,
-        PIDXPpad_AvailablePromptsList	= 117005,
-        PIDXPpad_EncryptedPIN	= 117006,
-        PIDXPpad_MerchantID	= 117007,
-        PIDXPpad_TerminalID	= 117008,
-        PIDXPpad_Track1Data	= 117009,
-        PIDXPpad_Track2Data	= 117010,
-        PIDXPpad_Track3Data	= 117011,
-        PIDXPpad_Track4Data	= 117012
+        PIDXPpad_AccountNumber	= 1017001,
+        PIDXPpad_AdditionalSecurityInformation	= 1017002,
+        PIDXPpad_AvailableLanguagesList	= 1017003,
+        PIDXPpad_AvailablePromptsList	= 1017005,
+        PIDXPpad_EncryptedPIN	= 1017006,
+        PIDXPpad_MerchantID	= 1017007,
+        PIDXPpad_TerminalID	= 1017008,
+        PIDXPpad_Track1Data	= 1017009,
+        PIDXPpad_Track2Data	= 1017010,
+        PIDXPpad_Track3Data	= 1017011,
+        PIDXPpad_Track4Data	= 1017012
     } 	OPOSPINPadInternals;
 
 typedef /* [public][helpstring] */ 
@@ -807,21 +807,21 @@ enum __MIDL___MIDL_itf_OposInternals_0000_0000_0026
         PIDXPcrw_CapTracksToRead	= 20515,
         PIDXPcrw_CapTracksToWrite	= 20516,
         PIDXPcrw_CapMapCharacterSet	= 20517,
-        PIDXPcrw_CharacterSetList	= 120001,
-        PIDXPcrw_FontTypeFaceList	= 120002,
-        PIDXPcrw_LineCharsList	= 120003,
-        PIDXPcrw_Track1Data	= 120004,
-        PIDXPcrw_Track2Data	= 120005,
-        PIDXPcrw_Track3Data	= 120006,
-        PIDXPcrw_Track4Data	= 120007,
-        PIDXPcrw_Track5Data	= 120008,
-        PIDXPcrw_Track6Data	= 120009,
-        PIDXPcrw_Write1Data	= 120010,
-        PIDXPcrw_Write2Data	= 120011,
-        PIDXPcrw_Write3Data	= 120012,
-        PIDXPcrw_Write4Data	= 120013,
-        PIDXPcrw_Write5Data	= 120014,
-        PIDXPcrw_Write6Data	= 120015
+        PIDXPcrw_CharacterSetList	= 1020001,
+        PIDXPcrw_FontTypeFaceList	= 1020002,
+        PIDXPcrw_LineCharsList	= 1020003,
+        PIDXPcrw_Track1Data	= 1020004,
+        PIDXPcrw_Track2Data	= 1020005,
+        PIDXPcrw_Track3Data	= 1020006,
+        PIDXPcrw_Track4Data	= 1020007,
+        PIDXPcrw_Track5Data	= 1020008,
+        PIDXPcrw_Track6Data	= 1020009,
+        PIDXPcrw_Write1Data	= 1020010,
+        PIDXPcrw_Write2Data	= 1020011,
+        PIDXPcrw_Write3Data	= 1020012,
+        PIDXPcrw_Write4Data	= 1020013,
+        PIDXPcrw_Write5Data	= 1020014,
+        PIDXPcrw_Write6Data	= 1020015
     } 	OPOSPointCardRWInternals;
 
 typedef /* [public][helpstring] */ 
@@ -974,18 +974,18 @@ enum __MIDL___MIDL_itf_OposInternals_0000_0000_0029
         PIDXPtr_CapSlpPageMode	= 8561,
         PIDXPtr_CapRecRuledLine	= 8562,
         PIDXPtr_CapSlpRuledLine	= 8563,
-        PIDXPtr_CharacterSetList	= 108001,
-        PIDXPtr_JrnLineCharsList	= 108002,
-        PIDXPtr_RecLineCharsList	= 108003,
-        PIDXPtr_SlpLineCharsList	= 108004,
-        PIDXPtr_ErrorString	= 108005,
-        PIDXPtr_FontTypefaceList	= 108006,
-        PIDXPtr_RecBarCodeRotationList	= 108007,
-        PIDXPtr_SlpBarCodeRotationList	= 108008,
-        PIDXPtr_RecBitmapRotationList	= 108009,
-        PIDXPtr_SlpBitmapRotationList	= 108010,
-        PIDXPtr_PageModeArea	= 108011,
-        PIDXPtr_PageModePrintArea	= 108012
+        PIDXPtr_CharacterSetList	= 1008001,
+        PIDXPtr_JrnLineCharsList	= 1008002,
+        PIDXPtr_RecLineCharsList	= 1008003,
+        PIDXPtr_SlpLineCharsList	= 1008004,
+        PIDXPtr_ErrorString	= 1008005,
+        PIDXPtr_FontTypefaceList	= 1008006,
+        PIDXPtr_RecBarCodeRotationList	= 1008007,
+        PIDXPtr_SlpBarCodeRotationList	= 1008008,
+        PIDXPtr_RecBitmapRotationList	= 1008009,
+        PIDXPtr_SlpBitmapRotationList	= 1008010,
+        PIDXPtr_PageModeArea	= 1008011,
+        PIDXPtr_PageModePrintArea	= 1008012
     } 	OPOSPOSPrinterInternals;
 
 typedef /* [public][helpstring] */ 
@@ -1014,10 +1014,10 @@ enum __MIDL___MIDL_itf_OposInternals_0000_0000_0030
         PIDXRod_CapTouch	= 18503,
         PIDXRod_CapTransaction	= 18504,
         PIDXRod_CapMapCharacterSet	= 18505,
-        PIDXRod_CharacterSetList	= 118001,
-        PIDXRod_ErrorString	= 118002,
-        PIDXRod_EventString	= 118003,
-        PIDXRod_VideoModesList	= 118004
+        PIDXRod_CharacterSetList	= 1018001,
+        PIDXRod_ErrorString	= 1018002,
+        PIDXRod_EventString	= 1018003,
+        PIDXRod_VideoModesList	= 1018004
     } 	OPOSRemoteOrderDisplayInternals;
 
 typedef /* [public][helpstring] */ 
@@ -1034,8 +1034,8 @@ enum __MIDL___MIDL_itf_OposInternals_0000_0000_0031
         PIDXRfid_CapMultipleProtocols	= 36504,
         PIDXRfid_CapReadTimer	= 36505,
         PIDXRfid_CapWriteTag	= 36506,
-        PIDXRfid_CurrentTagID	= 136001,
-        PIDXRfid_CurrentTagUserData	= 136002
+        PIDXRfid_CurrentTagID	= 1036001,
+        PIDXRfid_CurrentTagUserData	= 1036002
     } 	OPOSRFIDScannerInternals;
 
 typedef /* [public][helpstring] */ 
@@ -1070,8 +1070,8 @@ enum __MIDL___MIDL_itf_OposInternals_0000_0000_0033
     {
         PIDXScan_DecodeData	= 10001,
         PIDXScan_ScanDataType	= 10002,
-        PIDXScan_ScanData	= 110001,
-        PIDXScan_ScanDataLabel	= 110002
+        PIDXScan_ScanData	= 1010001,
+        PIDXScan_ScanDataLabel	= 1010002
     } 	OPOSScannerInternals;
 
 typedef /* [public][helpstring] */ 
@@ -1084,8 +1084,8 @@ enum __MIDL___MIDL_itf_OposInternals_0000_0000_0034
         PIDXSig_CapDisplay	= 11501,
         PIDXSig_CapUserTerminated	= 11502,
         PIDXSig_CapRealTimeData	= 11503,
-        PIDXSig_RawData	= 111001,
-        PIDXSig_PointArray	= 111002
+        PIDXSig_RawData	= 1011001,
+        PIDXSig_PointArray	= 1011002
     } 	OPOSSigCapInternals;
 
 typedef /* [public][helpstring] */ 

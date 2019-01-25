@@ -73,7 +73,7 @@ Please install according to the following procedure.
   - (Specify full path name if necessary) RegAsm  "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\OpenPOS.Devices.Opos_Interfaces\\v4.0_1.14.1.0__ad2c9a67c3439201\\OpenPOS.Devices.Opos_ Interterfaces.dll" /register  
     - For 64bit OS: "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\RegAsm.exe"  
     - For 32bit OS: "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\RegAsm.exe"  
-  - (also specify the full path name if necessary) RegAsm  "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\OpenPOS.Devices.Opos_Interfaces\\v4.0_1.14.1.0__ad2c9a67c3439201\\OpenPOS.Devices.Opos_Internals.dll"  /register  
+  - (also specify the full path name if necessary) RegAsm  "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\OpenPOS.Devices.Opos_Internals\\v4.0_1.14.1.0__ad2c9a67c3439201\\OpenPOS.Devices.Opos_Internals.dll"  /register  
   - Make sure that both are successfully registered and exit the command prompt.  
 
 
